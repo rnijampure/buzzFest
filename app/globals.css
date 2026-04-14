@@ -2,11 +2,16 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
+@tailwind utilities;
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
+  --color-lighter-foreground: var(--lighter-foreground);
   --color-foreground: var(--foreground);
+  --color-green: var(--brand-green);
+  /* This creates 'text-brand-green', 'bg-brand-green', etc. */
+  --color-brand-green: var(--brand-green);
   --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-sans);
@@ -46,11 +51,17 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+  /* Automated spacing for your 85px/62px buttons */
+  --spacing-btn-h-dsktp: 85px;
+  --spacing-btn-h-mbl: 62px;
+  /* Add this line to create the utility class */
+  --color-brand-brown: var(--brand-dark-brown);
 }
 
 :root {
-  --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
+  --lighter-foreground: lab(28 29.47 24.42);
+  --color-green: var(--brand-green);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
@@ -81,6 +92,12 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  /* High-precision OKLCH for consistent branding */
+  --brand-dark-brown: oklch(0.35 0.08 25);
+  --brand-green: oklch(0.52 0.12 145); /* Equivalent to your #3f8b42 */
+  --brand-orange: oklch(0.78 0.18 65);
+
+  --radius: 3px; /* Your Figma Spec */
 }
 
 .dark {
@@ -119,12 +136,30 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
-  }
+    @apply border-border outline-ring/50  font-sans bg-background text-lighter-foreground antialiased;
+  } /* */
   body {
     @apply bg-background text-foreground;
   }
   html {
+    @apply font-sans;
+  }
+  /* 2. Global Default for all Headings */
+  /* This targets h1 through h6 across every single file automatically */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading text-brand-green font-bold tracking-tight;
+  }
+
+  /* 3. Global Default for Buttons and Inputs */
+  button,
+  input,
+  select,
+  textarea {
     @apply font-sans;
   }
 }

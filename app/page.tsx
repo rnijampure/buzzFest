@@ -1,16 +1,17 @@
-import Image from "next/image";
-import Main from "./component/layout/main";
-import Header from "./component/layout/header";
-import Footer from "./component/layout/footer";
+//buzz-fest\app\page.tsx
+import LandingPage from "./component/layout/LandingPage";
 
 export default function Home() {
   return (
-    <div className="flex flex-row flex-wrap items-center justify-center  bg-amber-300 font-sans dark:bg-black">
-      <Header />
-      <main className="flex  w-full h-[calc(100vh-100px)] flex-col items-center justify-between  bg-zinc-50  dark:bg-black sm:items-start">
-        <Main />
+    // Change flex-row to flex-col to stack Header -> Main -> Footer
+    <div className="flex flex-col min-h-screen bg-zinc-50 font-sans dark:bg-black overflow-x-hidden">
+      {/* Removed h-[calc(100vh-100px)]. 
+         On a home page, you want the content to grow. 
+         Fixed heights can cut off your carousel or footer on smaller screens.
+      */}
+      <main className="flex-1 w-full flex flex-col items-center">
+        <LandingPage />
       </main>
-      <Footer />
     </div>
   );
 }

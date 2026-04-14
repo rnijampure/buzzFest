@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# Ignore local product images/bakery assets
+public/images/
+public/assets/
+
+# Do NOT ignore these essential files
+# public/favicon.ico
+# public/robots.txt
+# public/vercel.svg
