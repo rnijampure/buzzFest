@@ -42,6 +42,9 @@ next-env.d.ts
 # Ignore local product images/bakery assets
 public/images/
 public/assets/
+public/images/*.html
+public/images/products/
+.env
 
 # Do NOT ignore these essential files
 # public/favicon.ico
