@@ -1,29 +1,39 @@
 "use client";
-import React from "react";
+
+import Link from "next/link";
 import { useSearchParams } from "next/navigation";
+import { cn } from "@/lib/utils";
+export const clearFiltersLinkClass =
+  "rounded-2xl border border-brand-orange-deep bg-brand-orange-deep p-2 text-sm font-bold text-primary-foreground outline-0 ring-0";
 
-const ClearFilters = () => {
-  const searchParams = useSearchParams();
-
-  const search = searchParams.get("category");
-  const hasParams = searchParams.size > 0;
-  if (hasParams) {
-    return (
-      <div>
-        <p className="flex flex-col w-35 text-center text-white text-sm font-bold mr-5 ">
-          <a
-            href="/products"
-            title="All Products"
-            className="border {isActive ? 'bg-blue-500' : 'bg-gray-500'} disabled: border-[#d36d19] p-2 rounded-2xl outline-0 ring-0 bg-[#d36d19]"
-          >
-            Clear Filters
-          </a>
-        </p>
-      </div>
-    );
-  } else {
-    return null;
-  }
+export type ClearFiltersProps = {
+  hasActiveFilters: boolean;
+  className?: string;
 };
 
-export default ClearFilters;
+/**
+ * Presentational clear-filters control (test / Storybook friendly).
+ */
+export function ClearFiltersControl({
+  hasActiveFilters,
+  className,
+}: ClearFiltersProps) {
+  if (!hasActiveFilters) return null;
+
+  return (
+    <div className={cn("flex flex-col", className)}>
+      <p className="mr-5 w-35 text-center text-sm font-bold text-foreground">
+        <Link href="/products" title="All Products" className={clearFiltersLinkClass}>
+          Clear Filters
+        </Link>
+      </p>
+    </div>
+  );
+}
+
+export default function ClearFilters() {
+  const searchParams = useSearchParams();
+  const hasActiveFilters = searchParams.size > 0;
+
+  return <ClearFiltersControl hasActiveFilters={hasActiveFilters} />;
+}

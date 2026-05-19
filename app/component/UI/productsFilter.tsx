@@ -26,6 +26,8 @@ import {
   SidebarMenuSubItem,
 } from "./NavigationHelpers";
 import { CloudinaryImage } from "@/components/ui/CloudinaryImage";
+import { use } from "react";
+import { useSearchParams } from "next/navigation";
 
 const categoriesList = [
   "bread",
@@ -69,9 +71,14 @@ const bakerList = [
 ];
 
 export function ProductsSidebar() {
+  /*   const hasSearchParams = useSearchParams();
+  const hasQuery = hasSearchParams.has("search"); // Returns true or false
+
+  const hasParams = hasSearchParams.size > 0; */
+
   return (
-    <Sidebar className=" bg-[#75372A] border-none ring-0 outline-none  border-b-2 border-b-[#75372A] ">
-      <SidebarHeader className="flex items-start px-4  p-1   border-0 outline-0 bg-[#75372A]">
+    <Sidebar className="border-none border-b-2 border-b-brand-brown bg-brand-brown ring-0 outline-none">
+      <SidebarHeader className="flex items-start border-0 bg-brand-brown p-1 px-4 outline-0">
         <span className="font-bold text-xl">
           <CloudinaryImage
             src="logo.new_ndfwmw"

@@ -6,6 +6,8 @@ import Header from "./component/layout/header/header";
 import Footer from "./component/layout/footer";
 import { TooltipProvider } from "@/components/ui/tooltip"; // Ensure the path is correct
 import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar";
+import { CartSheet } from "./component/layout/cartSideSheet";
+import CartSummaryComponent from "./component/layout/cartSummaryIcon";
 /* 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -56,6 +58,8 @@ export default function RootLayout({
         <TooltipProvider delayDuration={0}>
           <Header />
           {children}
+          <CartSummaryComponent />
+          <CartSheet />
           <Footer />
         </TooltipProvider>
       </body>

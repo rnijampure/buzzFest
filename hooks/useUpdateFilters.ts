@@ -1,24 +1,25 @@
-// buzz-fest/hooks/useUpdateFilters.ts
 "use client";
-// ❌ Remove the revalidateTag import
+// buzz-fest/hooks/useUpdateFilters.ts
+type UpdateOptions = {
+  replace?: boolean; // replace vs merge
+  scroll?: boolean;
+};
 
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
-import { useEffect } from "react";
 
-export const useUpdateFilters = () => {
+export const useNewFilter = () => {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-
-  useEffect(() => {
-    const url = `${pathname}${searchParams.toString() ? "?" + searchParams.toString() : ""}`;
-    console.log("Route changed to:", url);
-
-    // Add logic here (e.g., analytics, closing a menu)
-  }, [pathname, searchParams]);
-
-  const updateFilters = (updates: Record<string, string | undefined>) => {
-    const params = new URLSearchParams(searchParams.toString());
+  // updateFilters(type, slug, checked);
+  const updateFilters = (
+    updates: Record<string, string | undefined>,
+    isSearch?: boolean | undefined,
+  ) => {
+    // new URLSearchParams(searchParams.toString());
+    const params = isSearch
+      ? new URLSearchParams("")
+      : new URLSearchParams(searchParams.toString());
 
     Object.entries(updates).forEach(([key, value]) => {
       if (value) {
@@ -27,23 +28,15 @@ export const useUpdateFilters = () => {
         params.delete(key);
       }
     });
-
     // This triggers the server-side re-render automatically
     router.push(`${pathname}?${params.toString()}`);
   };
-
-  return { updateFilters, searchParams };
-};
-
-export const useUpdateFilters1 = () => {
-  const router = useRouter();
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-
-  const updateFilters = (key: string, value: string, isChecked: boolean) => {
+  const toggleUpdateFilter = (
+    key: string,
+    value: string,
+    isChecked: boolean,
+  ) => {
     const params = new URLSearchParams(searchParams.toString());
-
-    // Get existing values for this key (e.g., "Ananya,Priya")
     const existingValue = params.get(key);
     let valuesArray = existingValue ? existingValue.split(",") : [];
 
@@ -63,9 +56,15 @@ export const useUpdateFilters1 = () => {
     } else {
       params.delete(key);
     }
-
-    router.push(`${pathname}?${params.toString()}`, { scroll: false });
+    // This triggers the server-side re-render automatically
+    router.push(`${pathname}?${params.toString()}`, {
+      scroll: isChecked == true ? false : true,
+    });
+    localStorage.setItem("oldParams", params.toString().toLowerCase());
   };
-
-  return { updateFilters, searchParams };
+  // ✅ 3. Clear all filters
+  const clearAllFilters = () => {
+    router.push(pathname);
+  };
+  return { updateFilters, toggleUpdateFilter, searchParams, clearAllFilters };
 };

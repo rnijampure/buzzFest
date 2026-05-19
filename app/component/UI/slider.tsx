@@ -2,12 +2,12 @@
 
 import React, { useEffect, useState } from "react";
 import { Slider } from "@/components/ui/slider";
-import { useUpdateFilters } from "@/hooks/useUpdateFilters";
+import { useNewFilter } from "@/hooks/useUpdateFilters";
 import { useDebounce } from "@/hooks/useDebounce";
 import { Loader2 } from "lucide-react";
 
 export function PriceSlider() {
-  const { updateFilters, searchParams } = useUpdateFilters();
+  const { updateFilters, searchParams } = useNewFilter();
 
   // Helper to parse URL
   const getUrlPrices = () => {
@@ -55,10 +55,10 @@ export function PriceSlider() {
             Price Range
           </span>
           {isWaiting && (
-            <Loader2 className="h-3 w-3 animate-spin text-[#d9942f]" />
+            <Loader2 className="h-3 w-3 animate-spin text-brand-gold" />
           )}
         </div>
-        <div className="text-sm font-bold text-[#d9942f] flex gap-1">
+        <div className="flex gap-1 text-sm font-bold text-brand-gold">
           <span>₹{range[0]}</span>
           <span className="opacity-50">-</span>
           <span>₹{range[1]}</span>

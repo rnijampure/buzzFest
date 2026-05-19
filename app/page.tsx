@@ -1,6 +1,5 @@
 //buzz-fest\app\page.tsx
-import LandingPage from "./component/layout/LandingPage";
-
+import LandingPage from "./component/layout/LandingPage/LandingPage";
 export default function Home() {
   return (
     // Change flex-row to flex-col to stack Header -> Main -> Footer
@@ -9,7 +8,7 @@ export default function Home() {
          On a home page, you want the content to grow. 
          Fixed heights can cut off your carousel or footer on smaller screens.
       */}
-      <main className="flex-1 w-full flex flex-col items-center">
+      <main className="flex-1 w-full flex flex-col items-stretch">
         <LandingPage />
       </main>
     </div>

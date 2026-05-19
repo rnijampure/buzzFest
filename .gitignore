@@ -50,3 +50,5 @@ public/images/products/
 # public/favicon.ico
 # public/robots.txt
 # public/vercel.svg
+*storybook.log
+storybook-static

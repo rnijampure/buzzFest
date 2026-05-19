@@ -7,7 +7,7 @@ const AboutUs = async () => {
   return (
     <section className="bg-accent-foreground/10">
       {/* 1. Hero Header */}
-      <div className="px-6 md:px-12 py-20 bg-gray-50/50 border-b border-gray-100">
+      <div className="border-b border-border bg-muted/50 px-6 py-20 md:px-12">
         <div className="max-w-7xl mx-auto text-center">
           <span className="text-brand-green font-semibold tracking-widest uppercase text-sm">
             Our Story
@@ -16,7 +16,7 @@ const AboutUs = async () => {
             Architecting the future of <br />
             <span className="text-brand-green italic">Women-led Ventures</span>
           </h1>
-          <p className="max-w-2xl mx-auto text-gray-600 text-xl leading-relaxed">
+          <p className="mx-auto max-w-2xl text-xl leading-relaxed text-muted-foreground">
             We don't just provide tools; we build the technical infrastructure
             that allows modern entrepreneurs to scale without limits.
           </p>
@@ -34,10 +34,10 @@ const AboutUs = async () => {
           ].map((stat, i) => (
             <div
               key={i}
-              className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center"
+              className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm"
             >
-              <p className="text-3xl font-bold text-brand-dark">{stat.value}</p>
-              <p className="text-sm text-gray-500 mt-1">{stat.label}</p>
+              <p className="text-3xl font-bold text-brand-brown">{stat.value}</p>
+              <p className="mt-1 text-sm text-muted-foreground">{stat.label}</p>
             </div>
           ))}
         </div>
@@ -68,7 +68,7 @@ const AboutUs = async () => {
             <h2 className="text-4xl font-bold mb-6">
               The Visionary Behind the Platform
             </h2>
-            <div className="space-y-6 text-gray-600 text-lg leading-relaxed">
+            <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
               <p>
                 R N founded this platform with a singular focus: to democratize
                 access to enterprise-level systems. With over a decade of
@@ -80,7 +80,7 @@ const AboutUs = async () => {
                 business dream is sidelined by a lack of technical support.
               </p>
               <div className="pt-4">
-                <p className="font-bold text-brand-dark text-2xl">R N</p>
+                <p className="text-2xl font-bold text-brand-brown">R N</p>
                 <p className="text-brand-green font-medium">
                   Founder & Chief Architect
                 </p>
@@ -91,14 +91,14 @@ const AboutUs = async () => {
       </div>
 
       {/* 4. Core Pillars with Icons */}
-      <div className="bg-brand-dark py-24 text-white">
+      <div className="bg-brand-brown py-24 text-primary-foreground">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
             <div className="max-w-xl">
-              <h2 className="text-white text-4xl font-bold mb-4">
+              <h2 className="mb-4 text-4xl font-bold text-primary-foreground">
                 What We Stand For
               </h2>
-              <p className="text-gray-300">
+              <p className="text-primary-foreground/80">
                 Our governance and engineering principles are built into every
                 tool we ship.
               </p>
@@ -130,7 +130,9 @@ const AboutUs = async () => {
               >
                 <div className="mb-6">{pillar.icon}</div>
                 <h4 className="text-xl font-bold mb-3">{pillar.title}</h4>
-                <p className="text-gray-400 leading-relaxed">{pillar.desc}</p>
+                <p className="leading-relaxed text-primary-foreground/70">
+                  {pillar.desc}
+                </p>
               </div>
             ))}
           </div>
@@ -141,7 +143,7 @@ const AboutUs = async () => {
       <div className="max-w-3xl mx-auto py-24 px-6 text-center">
         <h2 className="text-4xl font-bold mb-8">Ready to Build Your Legacy?</h2>
         <button className="btn-primary-figma">Join Our Community</button>
-        <p className="mt-6 text-gray-500 text-sm italic">
+        <p className="mt-6 text-sm italic text-muted-foreground">
           Zero-fluff. Just tools, growth, and community.
         </p>
       </div>

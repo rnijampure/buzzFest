@@ -1,33 +1,31 @@
 import React from "react";
 import { cn } from "@/lib/utils";
+import { cssVars } from "@/lib/design-tokens";
+import { getStarFillPercent, getStarGradientId } from "@/lib/star-rating";
 
-interface StarRatingProps {
+export interface StarRatingProps {
   className?: string;
-  rating: number; // e.g., 4.5
+  rating: number;
   maxStars?: number;
   size?: number;
 }
 
-const StarIcon = ({
+export function StarIcon({
   className,
   rating,
   maxStars = 5,
   size = 14,
-}: StarRatingProps) => {
+}: StarRatingProps) {
   return (
-    <div className={cn("flex items-center gap-0.5", className)}>
+    <div
+      className={cn("flex items-center gap-0.5", className)}
+      role="img"
+      aria-label={`Rating: ${rating} out of ${maxStars} stars`}
+    >
       {Array.from({ length: maxStars }).map((_, index) => {
-        // Calculate fill percentage for THIS specific star
-        // Star 1 (index 0) gets 100% if rating is 4.5
-        // Star 5 (index 4) gets 50% if rating is 4.5
-        const calculateFill = () => {
-          if (rating >= index + 1) return 100; // Fully filled
-          if (rating <= index) return 0; // Fully empty
-          return (rating - index) * 100; // Partial (e.g., 0.5 -> 50%)
-        };
-
-        const fillPercent = calculateFill();
-        const gradientId = `star-grad-${index}-${fillPercent}`;
+        const fillPercent = getStarFillPercent(rating, index);
+        const gradientId = getStarGradientId(index, fillPercent);
+        const isActive = fillPercent > 0;
 
         return (
           <svg
@@ -35,16 +33,26 @@ const StarIcon = ({
             viewBox="0 0 24 24"
             width={size}
             height={size}
-            stroke={fillPercent > 0 ? "#d97706" : "#d1d5db"}
             strokeWidth="1.5"
             strokeLinecap="round"
             strokeLinejoin="round"
             className="drop-shadow-sm"
+            style={{
+              stroke: isActive
+                ? `var(${cssVars.starStrokeActive})`
+                : `var(${cssVars.starStrokeInactive})`,
+            }}
           >
             <defs>
               <linearGradient id={gradientId}>
-                <stop offset={`${fillPercent}%`} stopColor="#facc15" />
-                <stop offset={`${fillPercent}%`} stopColor="#ffffff" />
+                <stop
+                  offset={`${fillPercent}%`}
+                  stopColor={`var(${cssVars.starFill})`}
+                />
+                <stop
+                  offset={`${fillPercent}%`}
+                  stopColor={`var(${cssVars.starEmptyFill})`}
+                />
               </linearGradient>
             </defs>
             <path
@@ -56,6 +64,6 @@ const StarIcon = ({
       })}
     </div>
   );
-};
+}
 
 export default StarIcon;

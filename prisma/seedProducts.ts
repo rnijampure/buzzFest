@@ -1,4 +1,5 @@
 import "dotenv/config";
+
 import { PrismaClient, Prisma } from "@prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
 
@@ -8,7 +9,7 @@ const adapter = new PrismaPg({
 
 const prisma = new PrismaClient({ adapter });
 
-async function main() {
+/* async function main() {
   console.log("🌱 Seeding Products with Variants...");
 
   // ================= BASE PRODUCTS =================
@@ -209,10 +210,159 @@ async function main() {
 
   console.log("✅ Products + Variants Seeded Successfully!");
 }
+  */
+
+const products = [
+  {
+    name: "Classic Saffron Glaze",
+    slug: "classic-saffron-glaze",
+    description:
+      "Infused with premium Kashmiri saffron and topped with crushed pistachios.",
+    price: "120.00",
+    category: ["best seller", "eggless", "yeast-raised"],
+    starRating: 4.9,
+    images: ["../assets/images/cupcake/3_il08on.jpg"],
+    createdAt: new Date("2026-04-08 06:14:58.659"),
+    updatedAt: new Date("2026-04-08 06:14:58.659"),
+    creatorSlug: "meenakshi-iyer",
+    isFeatured: true,
+    isVeg: true,
+    stock: 8,
+  },
+  {
+    name: "Dark Chocolate & Sea Salt",
+    slug: "dark-chocolate-sea-salt",
+    description:
+      "70% cocoa Belgian chocolate ganache with a hint of Himalayan pink salt.",
+    price: "145.00",
+    category: ["limited stock", "rich", "cake doughnut"],
+    starRating: 4.8,
+    images: ["../assets/images/cupcake/darkchocolateseasalt.jpg"],
+    createdAt: new Date("2026-04-08 06:14:58.659"),
+    updatedAt: new Date("2026-04-08 06:14:58.659"),
+    creatorSlug: "priya-sharma",
+    isFeatured: false,
+    isVeg: false,
+    stock: 3,
+  },
+  {
+    name: "Mango Mousse",
+    slug: "mango-mousse",
+    description:
+      "Stuffed with fresh Alphonso mango cream and dusted with cardamom sugar.",
+    price: "160.00",
+    category: ["seasonal", "vegan", "filled"],
+    starRating: 4.7,
+    images: ["../assets/images/cupcake/mangomoose.jpg"],
+    createdAt: new Date("2026-04-08 06:14:58.659"),
+    updatedAt: new Date("2026-04-08 06:14:58.659"),
+    creatorSlug: "ananya-das",
+    isFeatured: false,
+    isVeg: true,
+    stock: 0,
+  },
+  {
+    name: "Filter Coffee Glaze",
+    slug: "filter-coffee-glaze",
+    description:
+      "A crunchy exterior with a glaze made from authentic South Indian filter coffee decoction.",
+    price: "110.00",
+    category: ["new launch", "coffee", "old fashioned"],
+    starRating: 5.0,
+    images: ["../assets/images/cupcake/doughnot.jpg"],
+    createdAt: new Date("2026-04-08 06:14:58.659"),
+    updatedAt: new Date("2026-04-08 06:14:58.659"),
+    creatorSlug: "sandhya-mandi",
+    isFeatured: true,
+    isVeg: false,
+    stock: 15,
+  },
+  {
+    name: "Midnight Velvet",
+    slug: "midnight-velvet",
+    description:
+      "A deep cocoa sponge topped with a silky cream cheese frosting and edible gold leaf.",
+    price: "180.00",
+    category: ["best seller", "eggless", "chocolate", "cupcake"],
+    starRating: 4.9,
+    images: ["../assets/images/cupcake/vanilla-cupcakes.jpg"],
+    createdAt: new Date("2026-04-08 06:14:58.659"),
+    updatedAt: new Date("2026-04-08 06:14:58.659"),
+    creatorSlug: "meenakshi-iyer",
+    isFeatured: true,
+    isVeg: true,
+    stock: 12,
+  },
+  {
+    name: "Zesty Lemon Tart",
+    slug: "zesty-lemon-tart",
+    description:
+      "Light vanilla bean sponge filled with tangy house-made lemon curd and topped with toasted meringue.",
+    price: "150.00",
+    category: ["tangy", "seasonal", "citrus"],
+    starRating: 4.7,
+    images: ["../assets/images/cupcake/4.jpg"],
+    createdAt: new Date("2026-04-08 06:14:58.659"),
+    updatedAt: new Date("2026-04-08 06:14:58.659"),
+    creatorSlug: "sandhya-mandi",
+    isFeatured: false,
+    isVeg: false,
+    stock: 0,
+  },
+  {
+    name: "Salted Caramel Crunch",
+    slug: "salted-caramel-crunch",
+    description:
+      "Buttery caramel sponge with a hidden salted caramel center and sea-salt flakes.",
+    price: "165.00",
+    category: ["caramel", "sweet", "classic"],
+    starRating: 4.8,
+    images: ["../assets/images/cupcake/5.jpg"],
+    createdAt: new Date("2026-04-08 06:14:58.659"),
+    updatedAt: new Date("2026-04-08 06:14:58.659"),
+    creatorSlug: "ananya-das",
+    isFeatured: false,
+    isVeg: false,
+    stock: 8,
+  },
+  {
+    name: "Pistachio Rose",
+    slug: "pistachio-rose",
+    description:
+      "Fragrant rose-water sponge topped with crushed Iranian pistachios and dried rose petals.",
+    price: "195.00",
+    category: ["premium", "floral", "eggless", "fusion"],
+    starRating: 5.0,
+    images: ["../assets/images/cupcake/1.jpg"],
+    createdAt: new Date("2026-04-08 06:14:58.659"),
+    updatedAt: new Date("2026-04-08 06:14:58.659"),
+    creatorSlug: "priya-sharma",
+    isFeatured: true,
+    isVeg: true,
+    stock: 5,
+  },
+];
+
+async function main() {
+  for (const product of products) {
+    await prisma.product.upsert({
+      where: { slug: product.slug },
+      update: {},
+
+      create: {
+        ...product,
+        price: new Prisma.Decimal(product.price),
+      },
+    });
+  }
+
+  console.log("✅ Products seeded successfully");
+}
 
 main()
   .catch((e) => {
-    console.error("❌ Error:", e);
+    console.error(e);
+    process.exit(1);
   })
   .finally(async () => {
     await prisma.$disconnect();
