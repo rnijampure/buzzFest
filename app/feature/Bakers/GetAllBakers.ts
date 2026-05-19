@@ -6,6 +6,10 @@ const fetchBakers = async (filters: {
   minRating?: number;
   location?: string;
 }) => {
+  if (!filters || Object.keys(filters).length === 0) {
+    return prisma.baker.findMany();
+  }
+
   return prisma.baker.findMany({
     where: {
       ...(filters.minRating && { rating: { gte: filters.minRating } }),

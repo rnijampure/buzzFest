@@ -9,5 +9,6 @@ export type Props = {
     price?: number[];
     slug?: string;
     isVeg?: boolean;
+    search?: string;
   };
 };

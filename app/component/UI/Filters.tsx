@@ -4,10 +4,10 @@ import { useRouter } from "next/navigation";
 
 import { useEffect } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
-import { useUpdateFilters } from "@/hooks/useUpdateFilters";
+import { useNewFilter } from "@/hooks/useUpdateFilters";
 
 export default function Filters() {
-  const { updateFilters, searchParams } = useUpdateFilters();
+  const { updateFilters, searchParams } = useNewFilter();
   const currentRating = searchParams.get("minRating");
   const router = useRouter();
 

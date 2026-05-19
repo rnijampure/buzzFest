@@ -4,7 +4,8 @@ import { SidebarMenuButton } from "@/components/ui/sidebar";
 import Link from "next/link";
 import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
-import { useUpdateFilters1 } from "@/hooks/useUpdateFilters";
+import { useNewFilter } from "@/hooks/useUpdateFilters";
+import { useSearchParams } from "next/navigation";
 
 interface NavListItemProps {
   item: string;
@@ -33,8 +34,9 @@ function SidebarMenuSubItem({ href, title }: { href: string; title: string }) {
 }
 
 const NavListItem = ({ item, type }: NavListItemProps) => {
-  const { updateFilters, searchParams } = useUpdateFilters1();
+  const { toggleUpdateFilter, searchParams } = useNewFilter();
 
+  const hasSearchParams = useSearchParams();
   // 1. Generate the slug consistently
   const slug = item
     .toString()
@@ -50,7 +52,7 @@ const NavListItem = ({ item, type }: NavListItemProps) => {
 
   const handleOnCheckedChange = (checked: boolean) => {
     // We pass the new boolean state to our filter handler
-    updateFilters(type, slug, checked);
+    toggleUpdateFilter(type, slug, checked);
   };
 
   return (

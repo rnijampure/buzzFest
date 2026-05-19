@@ -59,9 +59,7 @@ function NavigationMenuItem({
 }
 
 const navigationMenuTriggerStyle = cva(
-  `group/navigation-menu-trigger inline-flex h-9 w-max list-none items-center justify-center rounded-lg px-2.5 py-1.5 text-sm font-medium transition-all outline-none hover:bg-muted focus:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-popup-open:bg-muted/50 data-popup-open:hover:bg-muted data-open:bg-muted/50 data-open:hover:bg-muted data-open:focus:bg-muted data-open:focus:text-[#75372A]
-   hover:text-[#75372A]  data-active:text-[#75372A]
-  `,
+  "group/navigation-menu-trigger inline-flex h-9 w-max list-none items-center justify-center rounded-lg px-2.5 py-1.5 text-sm font-medium transition-all outline-none hover:bg-muted hover:text-brand-brown focus:bg-muted focus:text-brand-brown focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-popup-open:bg-muted/50 data-popup-open:hover:bg-muted data-popup-open:hover:text-brand-brown data-open:bg-muted/50 data-open:hover:bg-muted data-open:hover:text-brand-brown data-open:focus:bg-muted data-open:focus:text-brand-brown data-active:text-brand-brown",
 );
 
 function NavigationMenuTrigger({

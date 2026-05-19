@@ -1,57 +1,42 @@
 "use client";
-import { Badge } from "@/components/ui/badge";
-import { useUpdateFilters1 } from "@/hooks/useUpdateFilters";
-import React, { useEffect } from "react";
 
-// Source of Truth for colors to avoid Tailwind purging
-const COLOR_MAP: Record<string, string> = {
-  brown: "bg-brand-brown hover:bg-brand-brown/90 text-[10px] py-1.5 px-3 ",
-  green: "bg-[#8BC34A] hover:bg-brand-green/90 text-[11px] py-3 px-2 uppercase",
-  gold: "bg-brand-gold hover:bg-brand-gold/90 text-[15px] py-1.5 px-3 ",
-  selected:
-    "bg-[#d9942f] hover:bg-brand-green/90 text-[11px] py-3 px-2 uppercase",
+import { Badge } from "@/components/ui/badge";
+import { useNewFilter } from "@/hooks/useUpdateFilters";
+import {
+  getFilterBadgeClasses,
+  type FilterBadgeColor,
+} from "@/lib/badge-filter-colors";
+
+export type { FilterBadgeColor };
+
+export type FilterBadgeListProps = {
+  items: string[];
+  color?: FilterBadgeColor;
+  selectedValues: string[];
+  onToggle: (item: string, isChecked: boolean) => void;
 };
 
-const BadgeComponent = ({
+/**
+ * Presentational filter badges — easy to test and wrap in Storybook.
+ */
+export function FilterBadgeList({
   items,
-  color = "brown", // Default to brown
-}: {
-  items: string[];
-  color?: "brown" | "green" | "gold"; // Strict typing is safer
-}) => {
-  const { updateFilters, searchParams } = useUpdateFilters1();
-  const currentValues =
-    searchParams
-      .get("category")
-      ?.split(",")
-      .map((value) => {
-        return value.toLowerCase();
-      }) || [];
-
+  color = "brown",
+  selectedValues,
+  onToggle,
+}: FilterBadgeListProps) {
   return (
-    <li className="px-2 py-2 list-none">
+    <li className="list-none px-2 py-2">
       <div className="flex w-full flex-wrap justify-start gap-2">
         {items.map((item) => {
-          const slug = item.toLowerCase().replace(/[\s+]+/g, "-");
-          const isSelected = currentValues.includes(item.toLowerCase());
+          const normalized = item.toLowerCase();
+          const isSelected = selectedValues.includes(normalized);
+
           return (
             <Badge
               key={item}
-              className={`
-              ${COLOR_MAP[color]}  
-                  ${currentValues.includes(item.toLowerCase()) && COLOR_MAP["selected"]}
-              text-white border-none 
-                tracking-wider font-semibold
-              cursor-pointer transition-colors
-              ${isSelected ? COLOR_MAP["selected"] : ""}
-            `}
-              onClick={(checked) => {
-                if (currentValues.includes(item.toLowerCase())) {
-                  updateFilters("category", item.toLowerCase(), false);
-                } else {
-                  updateFilters("category", item.toLowerCase(), true);
-                }
-              }}
+              className={getFilterBadgeClasses(color, isSelected)}
+              onClick={() => onToggle(item, !isSelected)}
             >
               {item}
             </Badge>
@@ -60,6 +45,34 @@ const BadgeComponent = ({
       </div>
     </li>
   );
-};
+}
+
+function BadgeComponent({
+  items,
+  color = "brown",
+}: {
+  items: string[];
+  color?: FilterBadgeColor;
+}) {
+  const { toggleUpdateFilter, searchParams } = useNewFilter();
+  const selectedValues =
+    searchParams
+      .get("category")
+      ?.split(",")
+      .map((value) => value.toLowerCase()) ?? [];
+
+  const handleToggle = (item: string, isChecked: boolean) => {
+    toggleUpdateFilter("category", item.toLowerCase(), isChecked);
+  };
+
+  return (
+    <FilterBadgeList
+      items={items}
+      color={color}
+      selectedValues={selectedValues}
+      onToggle={handleToggle}
+    />
+  );
+}
 
 export default BadgeComponent;

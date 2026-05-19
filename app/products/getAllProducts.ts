@@ -2,59 +2,65 @@
 
 import { unstable_cache } from "next/cache";
 import { prisma } from "@/lib/prisma";
-type product = {
-  name?: string;
-  slug?: string;
-  description?: string;
-  price?: any;
-  category?: string[];
-  starRating?: number;
-  images: string[];
-  createdAt: string;
-  updatedAt: string;
-  creatorSlug: string[];
-  isFeatured: boolean;
-  isVeg: boolean;
-  stock: number;
-};
-type OptionalProduct = Partial<product>;
+import { equal } from "assert";
+
+type OptionalProduct = Partial<any>;
 
 const fetchProducts = async (filters?: OptionalProduct) => {
-  // 1. If no filters, return all products
   if (!filters || Object.keys(filters).length === 0) {
     return prisma.product.findMany();
   }
-  // Use your normalize helper to ensure everything is URL-friendly
+
   const normalizedCategory = normalizeArray(filters.category);
   const normalizedCreatorSlug = normalizeArray(filters.creatorSlug);
-  const isVegan = filters.category?.includes("vegan");
+  const isVegan = normalizedCategory.includes("vegan");
+  const isSearch = filters?.search?.length || -1;
 
-  return prisma.product.findMany({
-    where: {
-      ...(filters.creatorSlug && {
-        creatorSlug: {
-          in: filters.creatorSlug,
-        },
-      }),
+  if (isSearch > 0) {
+    const search = normalize(filters.search!);
 
-      ...(filters.category && {
-        category: {
-          // Toggle operator based on "Vegan" presence
-          [isVegan ? "hasEvery" : "hasSome"]: filters.category,
-        },
-      }),
-      ...(filters.price && {
-        price: {
-          lte: filters.price[1],
-          gte: filters.price[0],
-        },
-      }),
-    },
-  });
+    return prisma.product.findMany({
+      where: {
+        OR: [
+          { name: { contains: search, mode: "insensitive" } },
+          { description: { contains: search, mode: "insensitive" } },
+          { creatorSlug: { contains: search, mode: "insensitive" } },
+          { category: { has: search } },
+        ],
+      },
+    });
+  } else {
+    return prisma.product.findMany({
+      where: {
+        ...(normalizedCreatorSlug.length > 0 && {
+          creatorSlug: {
+            in: normalizedCreatorSlug,
+          },
+        }),
+
+        ...(normalizedCategory.length > 0 && {
+          category: {
+            [isVegan ? "hasEvery" : "hasSome"]: normalizedCategory,
+          },
+        }),
+
+        ...(filters.price && {
+          price: {
+            lte: filters.price[1],
+            gte: filters.price[0],
+          },
+        }),
+
+        ...(filters.isFeatured && {
+          isFeatured: true,
+        }),
+      },
+    });
+  }
 };
 export const GetAllProducts = (filters?: OptionalProduct) => {
-  console.log("GetAllProducts   filter:::", filters?.price);
-  console.log("GetAllProducts   filter:::", filters);
+  // console.log("GetAllProducts   filter:::", filters);
+  //console.log("GetAllProducts   filter:::", filters);
   // Create a unique key based on the filters so the cache doesn't serve
   // "Vegan" results to someone looking for "Chocolate".
   const filterKey = JSON.stringify(filters || "all");

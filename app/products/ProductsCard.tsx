@@ -12,6 +12,8 @@ import { CloudinaryImage } from "@/components/ui/CloudinaryImage";
 import { Star, MapPin } from "lucide-react";
 import BadgeComponent from "../component/UI/Badge";
 import StarIcon from "../component/UI/star";
+import Link from "next/link";
+import AddToCartButton from "../component/UI/addToCartButton";
 
 // Using an interface for better TypeScript support
 interface BakerProps {
@@ -21,9 +23,9 @@ interface BakerProps {
   experience: string;
   location: string;
   description: string;
-  id?: string;
+  id: string;
   slug: string;
-  price: string | number;
+  price: string;
   category: string[];
   starRating: number;
   createdAt?: Date | string;
@@ -40,11 +42,13 @@ interface DoughnutCardProps {
   lastOrdered: string;
   name: string;
   creator: string;
-  price: number;
+  price: string;
 }
 type CardProps = BakerProps & DoughnutCardProps;
 export function ProductsCard({
+  id,
   name,
+  stock,
   images,
   creatorSlug,
   description,
@@ -52,70 +56,78 @@ export function ProductsCard({
   category,
   price,
   isVeg,
+  slug,
 }: CardProps) {
+  console.log("id", id);
   return (
-    <Card className="group flex flex-col h-full overflow-hidden transition-all hover:shadow-lg pt-0 border-zinc-200">
+    <Card className="group flex flex-col h-full overflow-hidden transition-all hover:shadow-lg pt-0 border-zinc-200 cursor-pointer">
       {/* Image Wrapper with Aspect Ratio */}
-      <div className="relative overflow-hidden aspect-[4/3]">
-        <CloudinaryImage
-          width="400"
-          height="300"
-          src={images[0]}
-          alt={name}
-          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-        />
-        <div className="absolute top-2 right-2">
-          <Badge className="bg-white/90 text-zinc-900 backdrop-blur-sm border-none shadow-sm">
-            ₹{price.toString()}
-          </Badge>
-        </div>
-      </div>
-
-      <CardHeader className="p-4 pb-0 relative">
-        {isVeg && (
-          <div className="flex w-15 mt-2 items-center gap-1  px-2 py-1 absolute -top-10.5 right-0">
-            <CloudinaryImage
-              width="200"
-              height="200"
-              src="vegan_ibsivi"
-              alt="Vegan"
-              className="w-full h-full object-cover"
-            />
-          </div>
-        )}
-        <div className="flex justify-between items-start gap-2 ">
-          <div className="space-y-1">
-            <CardTitle className="text-base font-bold uppercase">
-              {name}
-            </CardTitle>
-            <p className="text-[12px] font-bold text-orange-600 capitalize tracking-tighter">
-              By {creatorSlug.replace("-", " ")}
-            </p>
+      <Link href={`/products/${slug}`}>
+        <div className="relative overflow-hidden aspect-[4/3]">
+          <CloudinaryImage
+            width="400"
+            height="300"
+            src={images[0]}
+            alt={name}
+            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          />
+          <div className="absolute top-2 right-2">
+            <Badge className="bg-white/90 text-zinc-900 backdrop-blur-sm border-none shadow-sm">
+              ₹{parseInt(price)}
+            </Badge>
           </div>
         </div>
-      </CardHeader>
-
+      </Link>
+      <Link href={`/products/${slug}`}>
+        <CardHeader className="p-4 pb-0 relative">
+          {isVeg && (
+            <div className="flex w-15 mt-2 items-center gap-1  px-2 py-1 absolute -top-10.5 right-0">
+              <CloudinaryImage
+                width="200"
+                height="200"
+                src="vegan_ibsivi"
+                alt="Vegan"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          )}
+          <div className="flex justify-between items-start gap-2 ">
+            <div className="space-y-1">
+              <CardTitle className="text-base font-bold uppercase">
+                {name}
+              </CardTitle>
+              <p className="text-[12px] font-bold text-orange-600 capitalize tracking-tighter">
+                By {creatorSlug.replace("-", " ")}
+              </p>
+            </div>
+          </div>
+        </CardHeader>
+      </Link>
       <CardContent className="p-4 pt-2 flex-1 flex flex-col justify-between gap-4 ">
-        <CardDescription className="text-sm line-clamp-3 text-zinc-500 italic ">
-          "{description}"
-        </CardDescription>
+        <Link href={`/products/${slug}`}>
+          <CardDescription className="text-sm line-clamp-3 text-zinc-500 italic ">
+            "{description}"
+          </CardDescription>
 
-        <div className="flex mt-2 items-center gap-1 text-xs font-bold bg-green-50 text-green-700 px-2 py-1 rounded">
-          <StarIcon rating={starRating} size={18} />
-          {starRating}
-        </div>
+          <div className="flex mt-2 items-center gap-1 text-xs font-bold bg-green-50 text-green-700 px-2 py-1 rounded">
+            <StarIcon rating={starRating} size={18} />
+            {starRating}
+          </div>
+        </Link>
         {/* Category Badges at bottom */}
         <div className="pt-2 border-t border-zinc-100">
           <BadgeComponent items={category} color="green" />
         </div>
       </CardContent>
+
       <CardAction className="text-center justify-around flex w-full">
-        <Button variant="brand" type="button">
-          Add to cart
-        </Button>
-        <Button type="button" variant="brand">
-          More Details
-        </Button>
+        <AddToCartButton
+          id={id}
+          name={name}
+          images={images}
+          price={price}
+          stock={Number(stock)}
+        />
       </CardAction>
     </Card>
   );
@@ -129,7 +141,7 @@ export const DoughnutCard = ({
   price,
 }: DoughnutCardProps) => {
   return (
-    <div className="relative overflow-hidden mt-4 border rounded-lg">
+    <div className="relative overflow-hidden mt-4 border rounded-lg z-0">
       {stock === 0 && (
         <div className="absolute inset-0 z-10 bg-white/60 flex items-center justify-center backdrop-blur-[1px]">
           <Badge variant="destructive" className="text-lg py-1 px-4">
