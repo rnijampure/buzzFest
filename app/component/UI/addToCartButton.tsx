@@ -57,14 +57,9 @@ const AddToCartButton = ({
   name,
   images,
   quantity,
-  description,
-  starRating,
   message,
-  category,
-  stock,
   size,
   price,
-  varient,
   specialInstructions,
 }: NewType) => {
   const addToCart = useCartStore((state) => state.addToCart);
