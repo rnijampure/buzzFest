@@ -182,8 +182,6 @@ export default function ProductClient({ product }: any) {
           {/* CTA */}
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 pt-6 border-t">
             <span className="text-xl font-semibold">₹{price}</span>
-            {JSON.stringify(form)}
-
             <AddToCartButton
               id={product.id}
               name={product.name}
