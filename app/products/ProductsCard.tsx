@@ -58,9 +58,8 @@ export function ProductsCard({
   isVeg,
   slug,
 }: CardProps) {
-  console.log("id", id);
   return (
-    <Card className="group flex flex-col min-w-sm h-full overflow-hidden transition-all hover:shadow-lg pt-0 border-zinc-200 cursor-pointer">
+    <Card className="group flex flex-col h-full overflow-hidden transition-all hover:shadow-lg pt-0 border-zinc-200 cursor-pointer">
       {/* Image Wrapper with Aspect Ratio */}
       <Link href={`/products/${slug}`}>
         <div className="relative overflow-hidden aspect-4/3">

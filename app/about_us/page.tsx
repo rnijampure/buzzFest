@@ -36,7 +36,9 @@ const AboutUs = async () => {
               key={i}
               className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm"
             >
-              <p className="text-3xl font-bold text-brand-brown">{stat.value}</p>
+              <p className="text-3xl font-bold text-brand-brown">
+                {stat.value}
+              </p>
               <p className="mt-1 text-sm text-muted-foreground">{stat.label}</p>
             </div>
           ))}
@@ -103,7 +105,7 @@ const AboutUs = async () => {
                 tool we ship.
               </p>
             </div>
-            <MoveRight className="w-12 h-12 text-brand-green hidden md:block" />
+            <MoveRight className="w-12 h-12  hidden md:block text-brand-orange" />
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -111,17 +113,17 @@ const AboutUs = async () => {
               {
                 title: "Equity through Access",
                 desc: "We bring high-end engineering to the home-kitchen and small studio.",
-                icon: <Zap className="w-8 h-8 text-brand-orange" />,
+                icon: <Zap className="w-8 h-8 text-white" />,
               },
               {
                 title: "Community-Centric",
                 desc: "Collaborative networks that turn individual efforts into collective power.",
-                icon: <Users className="w-8 h-8 text-brand-orange" />,
+                icon: <Users className="w-8 h-8 text-white" />,
               },
               {
                 title: "Sustainable Scalability",
                 desc: "Our architecture grows with you. From 1 order to 10,000.",
-                icon: <Target className="w-8 h-8 text-brand-orange" />,
+                icon: <Target className="w-8 h-8 text-white" />,
               },
             ].map((pillar, i) => (
               <div
@@ -129,7 +131,9 @@ const AboutUs = async () => {
                 className="bg-white/5 p-8 rounded-3xl border border-white/10 hover:bg-white/10 transition group"
               >
                 <div className="mb-6">{pillar.icon}</div>
-                <h4 className="text-xl font-bold mb-3">{pillar.title}</h4>
+                <h4 className="text-xl font-bold mb-3 text-brand-green-light">
+                  {pillar.title}
+                </h4>
                 <p className="leading-relaxed text-primary-foreground/70">
                   {pillar.desc}
                 </p>
