@@ -12,6 +12,7 @@ import {
 import { AvatarComponent } from "@/app/component/UI/avatar";
 import StarIcon from "@/app/component/UI/star";
 import AddToCartButton from "@/app/component/UI/addToCartButton";
+import { getProductPriceNumber } from "@/lib/types/product";
 
 type Props = {
   params: {
@@ -181,13 +182,17 @@ export default function ProductClient({ product }: any) {
           {/* CTA */}
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 pt-6 border-t">
             <span className="text-xl font-semibold">₹{price}</span>
-            {JSON.stringify(form)}
             <AddToCartButton
-              id={id}
-              name={name}
-              images={images}
-              price={price}
-              stock={Number(stock)}
+              id={product.id}
+              name={product.name}
+              images={product.images}
+              price={getProductPriceNumber(product.price)}
+              stock={Number(product.stock)}
+              slug={product.slug}
+              description={product.description}
+              category={product.category}
+              starRating={product.starRating}
+              search={`${product.name} ${product.description} ${product.category.join(" ")}`}
               {...form}
             />
           </div>

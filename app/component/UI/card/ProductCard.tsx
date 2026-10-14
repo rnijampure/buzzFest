@@ -24,7 +24,7 @@ export function ProductCard({ product }: ProductCardProps) {
 
   return (
     <Card
-      className="flex h-115 max-w-sm min-w-xs flex-col overflow-hidden border-border p-0 mx-5 transition-all hover:shadow-md"
+      className="flex h-125 max-w-sm min-w-xs flex-col overflow-hidden border-border p-0  transition-all hover:shadow-md"
       data-testid="product-card"
     >
       <div className="relative w-full">
@@ -76,6 +76,11 @@ export function ProductCard({ product }: ProductCardProps) {
               images={product.images}
               price={getProductPriceNumber(product.price)}
               stock={Number(product.stock)}
+              slug={product.slug}
+              description={product.description}
+              category={product.category}
+              starRating={product.starRating}
+              search={`${product.name} ${product.description} ${product.category.join(" ")}`}
             />
           </div>
         </div>

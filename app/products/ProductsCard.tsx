@@ -9,13 +9,12 @@ import {
   CardAction,
 } from "@/components/ui/card";
 import { CloudinaryImage } from "@/components/ui/CloudinaryImage";
-import { Star, MapPin } from "lucide-react";
 import BadgeComponent from "../component/UI/Badge";
 import StarIcon from "../component/UI/star";
 import Link from "next/link";
 import AddToCartButton from "../component/UI/addToCartButton";
 
-// Using an interface for better TypeScript support
+// Main product payload structure
 interface BakerProps {
   name: string;
   images: string[];
@@ -44,6 +43,7 @@ interface DoughnutCardProps {
   creator: string;
   price: string;
 }
+
 type CardProps = BakerProps & DoughnutCardProps;
 export function ProductsCard({
   id,
@@ -58,12 +58,11 @@ export function ProductsCard({
   isVeg,
   slug,
 }: CardProps) {
-  console.log("id", id);
   return (
     <Card className="group flex flex-col h-full overflow-hidden transition-all hover:shadow-lg pt-0 border-zinc-200 cursor-pointer">
       {/* Image Wrapper with Aspect Ratio */}
       <Link href={`/products/${slug}`}>
-        <div className="relative overflow-hidden aspect-[4/3]">
+        <div className="relative overflow-hidden aspect-4/3">
           <CloudinaryImage
             width="400"
             height="300"
@@ -125,8 +124,13 @@ export function ProductsCard({
           id={id}
           name={name}
           images={images}
-          price={price}
+          price={Number(price)}
           stock={Number(stock)}
+          slug={slug}
+          description={description}
+          category={category}
+          starRating={starRating}
+          search={`${name} ${description} ${category.join(" ")}`}
         />
       </CardAction>
     </Card>

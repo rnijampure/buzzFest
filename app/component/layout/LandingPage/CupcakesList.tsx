@@ -11,10 +11,10 @@ export default async function CupcakesList() {
 
   return (
     <section
-      className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 my-3  justify-items-center"
+      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 my-6"
       data-testid="cupcakes-list-section "
     >
-      {SpecialtyCupcakes?.map((cupcake) => {
+      {SpecialtyCupcakes?.map((cupcake, index: number) => {
         // Architecture Note: We transform the data at the boundary
         // to keep the UI components "Pure"
         const plainProduct = {
@@ -23,7 +23,18 @@ export default async function CupcakesList() {
           stock: Number(cupcake.stock),
         };
 
-        return <ProductCard key={cupcake.id} product={plainProduct} />;
+        return (
+          <div
+            key={cupcake.id}
+            className={`
+              ${index >= 1 ? "hidden sm:block" : ""}
+              ${index >= 2 ? "sm:hidden lg:block" : ""}
+              ${index >= 3 ? "lg:hidden xl:block" : ""}
+            `}
+          >
+            <ProductCard product={plainProduct} />
+          </div>
+        );
       })}
     </section>
   );

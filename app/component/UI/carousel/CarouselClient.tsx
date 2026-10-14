@@ -21,15 +21,13 @@ export const CarouselClient = ({ children }: { children: React.ReactNode }) => {
 
   React.useEffect(() => {
     if (!api) return;
-
     const handler = () => setCurrent(api.selectedScrollSnap());
-
     api.on("select", handler);
-
     return () => {
-      api.off("select", handler); // ✅ now returns void
+      api.off("select", handler);
     };
   }, [api]);
+
   const count = api?.scrollSnapList().length ?? 0;
 
   return (

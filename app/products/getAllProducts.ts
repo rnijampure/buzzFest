@@ -4,6 +4,23 @@ import { unstable_cache } from "next/cache";
 import { prisma } from "@/lib/prisma";
 import { equal } from "assert";
 
+export type product = {
+  id: string;
+  name: string;
+  slug: string;
+  description: string;
+  price: any;
+  category: string[];
+  starRating: number;
+  images: string[];
+  search: string;
+  createdAt: string;
+  updatedAt: string;
+  creatorSlug: string[] | string;
+  isFeatured: boolean;
+  isVeg: boolean;
+  stock: number;
+};
 type OptionalProduct = Partial<any>;
 
 const fetchProducts = async (filters?: OptionalProduct) => {
