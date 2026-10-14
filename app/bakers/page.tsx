@@ -28,8 +28,7 @@ const Bakerspage = async ({ searchParams }: Props) => {
       >
         <Filters />
       </section>
-
-      <BakersList {...Bakers} />
+      <BakersList />
     </div>
   );
 };
