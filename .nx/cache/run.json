@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx dev buzz-fest",
+    "startTime": "2026-06-10T04:45:50.556Z",
+    "endTime": "2026-06-10T05:21:25.684Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "buzz-fest:dev",
+      "target": "dev",
+      "projectName": "buzz-fest",
+      "hash": "6202015247082967170",
+      "startTime": "2026-06-10T04:45:50.622Z",
+      "endTime": "2026-06-10T05:21:25.634Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+[00:00:05.328] Server  LOG     ✓ Ready in 4.2s
+[00:00:06.032] Server  WARN    ⚠ ./libs/data-access/src/generated/client/index.js
+unexpected export *
+export * used with module [project]/libs/data-access/src/generated/client/index.js [app-rsc] (ecmascript) which is a CommonJS module with exports only available at runtime
+List all export names manually (`export { a, b, c } from "...") or rewrite the module to ESM, to avoid the additional runtime code.`
+
+Import trace:
+  Server Component:
+    ./libs/data-access/src/generated/client/index.js
+    ./libs/data-access/src/lib/prisma.ts
+    ./apps/buzz-fest/src/app/products/getAllProducts.ts
+    ./apps/buzz-fest/src/app/component/layout/LandingPage/CupcakesList.tsx
+    ./apps/buzz-fest/src/app/component/layout/LandingPage/LandingPage.tsx
+    ./apps/buzz-fest/src/app/page.tsx
+
+
+[00:00:07.170] Server  WARN    ⚠ ./libs/data-access/src/generated/client/index.js
+unexpected export *
+export * used with module [project]/libs/data-access/src/generated/client/index.js [app-rsc] (ecmascript) which is a CommonJS module with exports only available at runtime
+List all export names manually (`export { a, b, c } from "...") or rewrite the module to ESM, to avoid the additional runtime code.`
+
+Import trace:
+  Server Component:
+    ./libs/data-access/src/generated/client/index.js
+    ./libs/data-access/src/lib/prisma.ts
+    ./apps/buzz-fest/src/app/products/getAllProducts.ts
+    ./apps/buzz-fest/src/app/component/layout/LandingPage/CupcakesList.tsx
+    ./apps/buzz-fest/src/app/component/layout/LandingPage/LandingPage.tsx
+    ./apps/buzz-fest/src/app/page.tsx
+
+
+[00:00:07.571] Server  WARN    ⚠ ./libs/data-access/src/generated/client/index.js
+unexpected export *
+export * used with module [project]/libs/data-access/src/generated/client/index.js [app-rsc] (ecmascript) which is a CommonJS module with exports only available at runtime
+List all export names manually (`export { a, b, c } from "...") or rewrite the module to ESM, to avoid the additional runtime code.`
+
+Import trace:
+  Server Component:
+    ./libs/data-access/src/generated/client/index.js
+    ./libs/data-access/src/lib/prisma.ts
+    ./apps/buzz-fest/src/app/products/getAllProducts.ts
+    ./apps/buzz-fest/src/app/component/layout/LandingPage/CupcakesList.tsx
+    ./apps/buzz-fest/src/app/component/layout/LandingPage/LandingPage.tsx
+    ./apps/buzz-fest/src/app/page.tsx
+
+
+[00:00:07.603] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:07.621] Server  WARN    ⚠ ./libs/data-access/src/generated/client/index.js
+unexpected export *
+export * used with module [project]/libs/data-access/src/generated/client/index.js [app-rsc] (ecmascript) which is a CommonJS module with exports only available at runtime
+List all export names manually (`export { a, b, c } from "...") or rewrite the module to ESM, to avoid the additional runtime code.`
+
+Import trace:
+  Server Component:
+    ./libs/data-access/src/generated/client/index.js
+    ./libs/data-access/src/lib/prisma.ts
+    ./apps/buzz-fest/src/app/products/getAllProducts.ts
+    ./apps/buzz-fest/src/app/component/layout/LandingPage/CupcakesList.tsx
+    ./apps/buzz-fest/src/app/component/layout/LandingPage/LandingPage.tsx
+    ./apps/buzz-fest/src/app/page.tsx
+
+
+[00:00:07.660] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.698] Server  LOG     prisma:query "SELECT \"public\".\"Product\".\"id\", \"public\".\"Product\".\"name\", \"public\".\"Product\".\"slug\", \"public\".\"Product\".\"description\", \"public\".\"Product\".\"price\", \"public\".\"Product\".\"category\", \"public\".\"Product\".\"starRating\", \"public\".\"Product\".\"images\", \"public\".\"Product\".\"createdAt\", \"public\".\"Product\".\"updatedAt\", \"public\".\"Product\".\"creatorSlug\", \"public\".\"Product\".\"isFeatured\", \"public\".\"Product\".\"isVeg\", \"public\".\"Product\".\"stock\" FROM \"public\".\"Product\" WHERE \"public\".\"Product\".\"category\" && $1 OFFSET $2"
+[00:00:09.005] Server  LOG     prisma:query "SELECT \"public\".\"Baker\".\"id\", \"public\".\"Baker\".\"name\", \"public\".\"Baker\".\"slug\", \"public\".\"Baker\".\"images\", \"public\".\"Baker\".\"specialty\", \"public\".\"Baker\".\"experience\", \"public\".\"Baker\".\"location\", \"public\".\"Baker\".\"description\", \"public\".\"Baker\".\"rating\", \"public\".\"Baker\".\"createdAt\" FROM \"public\".\"Baker\" WHERE 1=1 OFFSET $1"
+[00:00:09.008] Server  LOG     prisma:query "SELECT \"public\".\"Product\".\"id\", \"public\".\"Product\".\"name\", \"public\".\"Product\".\"slug\", \"public\".\"Product\".\"description\", \"public\".\"Product\".\"price\", \"public\".\"Product\".\"category\", \"public\".\"Product\".\"starRating\", \"public\".\"Product\".\"images\", \"public\".\"Product\".\"createdAt\", \"public\".\"Product\".\"updatedAt\", \"public\".\"Product\".\"creatorSlug\", \"public\".\"Product\".\"isFeatured\", \"public\".\"Product\".\"isVeg\", \"public\".\"Product\".\"stock\" FROM \"public\".\"Product\" WHERE \"public\".\"Product\".\"category\" && $1 OFFSET $2"
+[00:00:09.161] Server  LOG     prisma:query "SELECT \"public\".\"Baker\".\"id\", \"public\".\"Baker\".\"name\", \"public\".\"Baker\".\"slug\", \"public\".\"Baker\".\"images\", \"public\".\"Baker\".\"specialty\", \"public\".\"Baker\".\"experience\", \"public\".\"Baker\".\"location\", \"public\".\"Baker\".\"description\", \"public\".\"Baker\".\"rating\", \"public\".\"Baker\".\"createdAt\" FROM \"public\".\"Baker\" WHERE 1=1 OFFSET $1"
+[00:00:09.164] Server  LOG     prisma:query "SELECT \"public\".\"Product\".\"id\", \"public\".\"Product\".\"name\", \"public\".\"Product\".\"slug\", \"public\".\"Product\".\"description\", \"public\".\"Product\".\"price\", \"public\".\"Product\".\"category\", \"public\".\"Product\".\"starRating\", \"public\".\"Product\".\"images\", \"public\".\"Product\".\"createdAt\", \"public\".\"Product\".\"updatedAt\", \"public\".\"Product\".\"creatorSlug\", \"public\".\"Product\".\"isFeatured\", \"public\".\"Product\".\"isVeg\", \"public\".\"Product\".\"stock\" FROM \"public\".\"Product\" WHERE \"public\".\"Product\".\"category\" && $1 OFFSET $2"
+[00:00:09.232] Server  LOG     prisma:query "SELECT \"public\".\"Product\".\"id\", \"public\".\"Product\".\"name\", \"public\".\"Product\".\"slug\", \"public\".\"Product\".\"description\", \"public\".\"Product\".\"price\", \"public\".\"Product\".\"category\", \"public\".\"Product\".\"starRating\", \"public\".\"Product\".\"images\", \"public\".\"Product\".\"createdAt\", \"public\".\"Product\".\"updatedAt\", \"public\".\"Product\".\"creatorSlug\", \"public\".\"Product\".\"isFeatured\", \"public\".\"Product\".\"isVeg\", \"public\".\"Product\".\"stock\" FROM \"public\".\"Product\" WHERE \"public\".\"Product\".\"category\" && $1 OFFSET $2"
+[00:00:12.940] Browser WARN    Image with src "https://res.cloudinary.com/djboceexh/image/upload/c_limit,w_256/f_auto/q_auto/v1/logo.new_ndfwmw?_a=BAVMn6B00" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:12.940] Browser WARN    Image with src "https://res.cloudinary.com/djboceexh/image/upload/c_limit,w_3840/f_auto/q_auto/v1/1_withoutLogo_ejducv?_a=BAVMn6B00" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:12.940] Browser WARN    Image with src "logo.new_ndfwmw" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:12.940] Browser WARN    Image with src "https://res.cloudinary.com/djboceexh/image/upload/c_limit,w_640/f_auto/q_auto/v1/logo.new_ndfwmw?_a=BAVMn6B00" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:12.940] Browser WARN    Image with src "priya_dkdfnq" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:16.409] Browser WARN    Image with src "https://res.cloudinary.com/djboceexh/image/upload/c_limit,w_256/f_auto/q_auto/v1/logo.new_ndfwmw?_a=BAVMn6B00" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:16.409] Browser WARN    Image with src "https://res.cloudinary.com/djboceexh/image/upload/c_limit,w_3840/f_auto/q_auto/v1/1_withoutLogo_ejducv?_a=BAVMn6B00" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:16.752] Browser WARN    Image with src "priya_dkdfnq" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:16.752] Browser WARN    Image with src "https://res.cloudinary.com/djboceexh/image/upload/c_limit,w_640/f_auto/q_auto/v1/logo.new_ndfwmw?_a=BAVMn6B00" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:20.874] Server  WARN    ⚠ ./libs/data-access/src/generated/client/index.js
+unexpected export *
+export * used with module [project]/libs/data-access/src/generated/client/index.js [app-rsc] (ecmascript) which is a CommonJS module with exports only available at runtime
+List all export names manually (`export { a, b, c } from "...") or rewrite the module to ESM, to avoid the additional runtime code.`
+
+Import trace:
+  Server Component:
+    ./libs/data-access/src/generated/client/index.js
+    ./libs/data-access/src/lib/prisma.ts
+    ./apps/buzz-fest/src/app/products/getAllProducts.ts
+    ./apps/buzz-fest/src/app/products/page.tsx
+
+
+[00:00:20.949] Server  LOG     params false
+[00:00:21.289] Server  LOG     prisma:query "SELECT \"public\".\"Product\".\"id\", \"public\".\"Product\".\"name\", \"public\".\"Product\".\"slug\", \"public\".\"Product\".\"description\", \"public\".\"Product\".\"price\", \"public\".\"Product\".\"category\", \"public\".\"Product\".\"starRating\", \"public\".\"Product\".\"images\", \"public\".\"Product\".\"createdAt\", \"public\".\"Product\".\"updatedAt\", \"public\".\"Product\".\"creatorSlug\", \"public\".\"Product\".\"isFeatured\", \"public\".\"Product\".\"isVeg\", \"public\".\"Product\".\"stock\" FROM \"public\".\"Product\" WHERE 1=1 OFFSET $1"
+[00:00:21.697] Server  WARN    ⚠ ./libs/data-access/src/generated/client/index.js
+unexpected export *
+export * used with module [project]/libs/data-access/src/generated/client/index.js [app-rsc] (ecmascript) which is a CommonJS module with exports only available at runtime
+List all export names manually (`export { a, b, c } from "...") or rewrite the module to ESM, to avoid the additional runtime code.`
+
+Import trace:
+  Server Component:
+    ./libs/data-access/src/generated/client/index.js
+    ./libs/data-access/src/lib/prisma.ts
+    ./apps/buzz-fest/src/app/products/getAllProducts.ts
+    ./apps/buzz-fest/src/app/products/page.tsx
+
+
+[00:00:21.713] Server  LOG     params false
+[00:00:21.875] Server  WARN    ⚠ ./libs/data-access/src/generated/client/index.js
+unexpected export *
+export * used with module [project]/libs/data-access/src/generated/client/index.js [app-rsc] (ecmascript) which is a CommonJS module with exports only available at runtime
+List all export names manually (`export { a, b, c } from "...") or rewrite the module to ESM, to avoid the additional runtime code.`
+
+Import trace:
+  Server Component:
+    ./libs/data-access/src/generated/client/index.js
+    ./libs/data-access/src/lib/prisma.ts
+    ./apps/buzz-fest/src/app/products/getAllProducts.ts
+    ./apps/buzz-fest/src/app/products/page.tsx
+
+
+[00:00:21.901] Server  LOG     params false
+[00:00:27.413] Server  WARN    ⚠ ./libs/data-access/src/generated/client/index.js
+unexpected export *
+export * used with module [project]/libs/data-access/src/generated/client/index.js [app-rsc] (ecmascript) which is a CommonJS module with exports only available at runtime
+List all export names manually (`export { a, b, c } from "...") or rewrite the module to ESM, to avoid the additional runtime code.`
+
+Import trace:
+  Server Component:
+    ./libs/data-access/src/generated/client/index.js
+    ./libs/data-access/src/lib/prisma.ts
+    ./apps/buzz-fest/src/app/products/getAllProducts.ts
+    ./apps/buzz-fest/src/app/products/page.tsx
+
+
+[00:00:27.432] Server  LOG     params false
+[00:00:27.483] Server  LOG     prisma:query "SELECT \"public\".\"Product\".\"id\", \"public\".\"Product\".\"name\", \"public\".\"Product\".\"slug\", \"public\".\"Product\".\"description\", \"public\".\"Product\".\"price\", \"public\".\"Product\".\"category\", \"public\".\"Product\".\"starRating\", \"public\".\"Product\".\"images\", \"public\".\"Product\".\"createdAt\", \"public\".\"Product\".\"updatedAt\", \"public\".\"Product\".\"creatorSlug\", \"public\".\"Product\".\"isFeatured\", \"public\".\"Product\".\"isVeg\", \"public\".\"Product\".\"stock\" FROM \"public\".\"Product\" WHERE \"public\".\"Product\".\"category\" && $1 OFFSET $2"
+[00:00:38.547] Server  WARN    ⚠ ./libs/data-access/src/generated/client/index.js
+unexpected export *
+export * used with module [project]/libs/data-access/src/generated/client/index.js [app-rsc] (ecmascript) which is a CommonJS module with exports only available at runtime
+List all export names manually (`export { a, b, c } from "...") or rewrite the module to ESM, to avoid the additional runtime code.`
+
+Import trace:
+  Server Component:
+    ./libs/data-access/src/generated/client/index.js
+    ./apps/buzz-fest/src/app/actions/checkout.ts
+
+

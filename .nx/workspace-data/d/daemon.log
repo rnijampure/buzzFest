@@ -1,0 +1,1617 @@
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:43.020Z - [Client] Starting new daemon server in background
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:43.048Z - [Client] Waiting for server (max: 6000 attempts, 10ms interval)
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:43.884Z - New daemon starting from: D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\daemon\server\server.js
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:43.886Z - New daemon __dirname: D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\daemon\server
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:43.886Z - New daemon nxVersion: 22.7.5
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:43.888Z - New daemon getInstalledNxVersion(): 22.7.5
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:43.903Z - Time taken for 'workspace context init' 6.171900000000051ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:43.906Z - [Server] Starting outdated check interval (20ms)
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:43.914Z - Started listening on: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\5b04aba244172d027a81\d.sock
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:43.920Z - [WATCHER]: Subscribed to changes within: D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest (native)
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:43.922Z - [LATEST-NX]: Pulling latest Nx...
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:43.938Z - [Client] Server available
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:43.938Z - [Client] Daemon server started, pid=28888
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:43.941Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:43.942Z - [Messenger] listen() complete
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:43.983Z - [AI-AGENTS]: Starting agent configuration status computation
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:43.994Z - Established a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:43.996Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:43.999Z - Closed a connection. Number of open connections: 1
+[isolated-plugin] spawned worker for "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 18164, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-0-966.4235.sock)
+[isolated-plugin] spawned worker for "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 21112, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-1-1002.1804.sock)
+[isolated-plugin] spawned worker for "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 4020, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-2-1045.1854.sock)
+[isolated-plugin] spawned worker for "@nx/js/typescript" (pid: 3292, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-3-1072.4096.sock)
+[isolated-plugin] spawned worker for "@nx/next/plugin" (pid: 8684, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-4-1103.0786.sock)
+[isolated-plugin] spawned worker for "@nx/eslint/plugin" (pid: 15460, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-5-1142.1982.sock)
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:44.681Z - [Messenger] Sending message type: REQUEST_PROJECT_GRAPH
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:44.682Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:44.687Z - Received raw message of length 5409
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:44.688Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:44.688Z - [REQUEST]: Client Request for Project Graph Received
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 18164) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-0-966.4235.sock
+[isolated-plugin] connected to worker for "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 18164)
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 18164) connected
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:44.734Z - Time taken for 'start-plugin-worker:D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js' 688.9838ms
+[1m[33mTime taken for 'plugin worker 18164 code loading' 537.8603ms[39m[22m
+[isolated-plugin] connected to worker for "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 21112)
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 21112) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-1-1002.1804.sock
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 21112) connected
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:44.797Z - Time taken for 'start-plugin-worker:D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json' 719.6603999999999ms
+[1m[33mTime taken for 'plugin worker 21112 code loading' 547.6947ms[39m[22m
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 4020) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-2-1045.1854.sock
+[1m[33mTime taken for 'plugin worker 4020 code loading' 529.924ms[39m[22m
+[isolated-plugin] connected to worker for "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 4020)
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:44.819Z - Time taken for 'start-plugin-worker:D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json' 699.1466ms
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 4020) connected
+[plugin-worker] "@nx/js/typescript" (pid: 3292) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-3-1072.4096.sock
+[1m[33mTime taken for 'plugin worker 3292 code loading' 536.6816ms[39m[22m
+[isolated-plugin] connected to worker for "@nx/js/typescript" (pid: 3292)
+[plugin-worker] "@nx/js/typescript" (pid: 3292) connected
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:44.855Z - Time taken for 'start-plugin-worker:@nx/js/typescript' 707.5016ms
+[plugin-worker] "@nx/next/plugin" (pid: 8684) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-4-1103.0786.sock
+[plugin-worker] "@nx/eslint/plugin" (pid: 15460) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-5-1142.1982.sock
+[1m[33mTime taken for 'plugin worker 8684 code loading' 533.6349ms[39m[22m
+[1m[33mTime taken for 'plugin worker 15460 code loading' 506.6574999999999ms[39m[22m
+[isolated-plugin] connected to worker for "@nx/next/plugin" (pid: 8684)
+[isolated-plugin] connected to worker for "@nx/eslint/plugin" (pid: 15460)
+[plugin-worker] "@nx/next/plugin" (pid: 8684) connected
+[plugin-worker] "@nx/eslint/plugin" (pid: 15460) connected
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:44.889Z - Time taken for 'start-plugin-worker:@nx/next/plugin' 708.4247ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:44.889Z - Time taken for 'start-plugin-worker:@nx/eslint/plugin' 671.1918000000001ms
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 18164) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.073Z - Time taken for 'Load Nx Plugin: D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js' 1041.3674ms
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 21112) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.097Z - Time taken for 'Load Nx Plugin: D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json' 1062.9535ms
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 4020) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.107Z - Time taken for 'loadDefaultNxPlugins' 1075.9221ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.107Z - Time taken for 'Load Nx Plugin: D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json' 1071.4726ms
+[plugin-worker] "@nx/js/typescript" (pid: 3292) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.556Z - Time taken for 'Load Nx Plugin: @nx/js/typescript' 1519.7035999999998ms
+[plugin-worker] "@nx/next/plugin" (pid: 8684) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.711Z - Time taken for 'Load Nx Plugin: @nx/next/plugin' 1673.5410000000002ms
+[plugin-worker] "@nx/eslint/plugin" (pid: 15460) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.726Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.726Z - [REQUEST]: 
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.726Z - [REQUEST]: 
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.730Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.731Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:45.732Z - [Messenger] Received message, length: 47
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.750Z - Time taken for 'loadSpecifiedNxPlugins' 1689.6553999999996ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.750Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 1686.5533999999998ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.750Z - Time taken for 'hash changed files from watcher' 0.7678000000000793ms
+[1m[33mTime taken for 'nx/core/project-json:createNodes' 1.5192999999999302ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/core/project-json" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.761Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:45.761Z - [Messenger] Received message, length: 220
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.764Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.765Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.766Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:45.766Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:45.768Z - [Messenger] listen() complete
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.769Z - Established a connection. Number of open connections: 3
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.770Z - Closed a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:45.770Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.773Z - Established a connection. Number of open connections: 3
+[1m[33mTime taken for 'nx/core/package-json:createNodes' 18.10439999999994ms[39m[22m
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:45.773Z - [Messenger] listen() complete
+[isolated-plugin] shutting down worker for "nx/core/package-json" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:45.776Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:45.776Z - [Messenger] Received message, length: 194
+[1m[33mTime taken for '@nx/js/typescript:createNodes' 254.74520000000007ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.012Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:46.013Z - [Messenger] Received message, length: 171
+[1m[33mTime taken for 'nx/js/dependencies-and-lockfile:createNodes' 379.0876999999998ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.145Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:46.145Z - [Messenger] Received message, length: 134
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:46.399Z - [Messenger] Sending message type: GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:46.400Z - [Messenger] Message sent
+[1m[33mTime taken for 'daemon-message-serialization-GLOB' 0.09570000000030632ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.404Z - Received raw message of length 73
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.404Z - Received json message of type GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.406Z - Serializing response for GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.406Z - Responding to GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.407Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.407Z - Done responding to the client handleGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.407Z - Handled json message GLOB. Handling time: 2. Response time: 1.
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:46.407Z - [Messenger] Received message, length: 7924
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:46.408Z - [Messenger] Sending message type: HASH_GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:46.409Z - [Messenger] Message sent
+[1m[33mTime taken for 'daemon-message-serialization-HASH_GLOB' 0.07600000000002183ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.412Z - Received raw message of length 76
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.412Z - Received json message of type HASH_GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.414Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.414Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.414Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.414Z - Done responding to the client handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.414Z - Handled json message HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:46.414Z - [Messenger] Received message, length: 20
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:46.418Z - [Messenger] Sending message type: HASH_MULTI_GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:46.418Z - [Messenger] Message sent
+[1m[33mTime taken for 'GLOB round trip' 9.01449999999977ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - GLOB' 0.10320000000001528ms[39m[22m
+[1m[33mTime taken for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.05920000000014625ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.420Z - Received raw message of length 582
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.420Z - Received json message of type HASH_MULTI_GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.424Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.424Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.424Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:46.424Z - [Messenger] Received message, length: 110
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.428Z - Done responding to the client handleHashMultiGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:46.428Z - Handled json message HASH_GLOB. Handling time: 4. Response time: 4.
+Fetching nx...
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:47.059Z - [Messenger] Sending message type: HASH_GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:47.060Z - [Messenger] Message sent
+[1m[33mTime taken for 'HASH_MULTI_GLOB round trip' 7.669400000000223ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_MULTI_GLOB' 0.043400000000019645ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:47.240Z - Received raw message of length 75
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:47.240Z - Received json message of type HASH_GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:47.242Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:47.242Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:47.242Z - [REQUEST]: Responding to the client. handleHashGlob
+[1m[33mTime taken for 'HASH_GLOB round trip' 6.826599999999871ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_GLOB' 0.05429999999978463ms[39m[22m
+[1m[33mTime taken for 'daemon-message-serialization-HASH_GLOB' 0.06550000000015643ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:47.243Z - Done responding to the client handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:47.243Z - Handled json message HASH_GLOB. Handling time: 2. Response time: 1.
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:47.242Z - [Messenger] Received message, length: 21
+[1m[33mTime taken for '@nx/next/plugin:createNodes' 1497.0297999999998ms[39m[22m
+[1m[33mTime taken for 'HASH_GLOB round trip' 183.9636999999998ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_GLOB' 0.10959999999977299ms[39m[22m
+[isolated-plugin] shutting down worker for "@nx/next/plugin" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:47.254Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:47.254Z - [Messenger] Received message, length: 98
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:47.318Z - Closed a connection. Number of open connections: 2
+[1m[33mTime taken for '@nx/eslint/plugin:createNodes' 3117.6021ms[39m[22m
+[isolated-plugin] shutting down worker for "@nx/eslint/plugin" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:48.874Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:48.874Z - [Messenger] Received message, length: 47
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:48.936Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:48.946Z - Time taken for 'build-project-configs' 3160.9089000000004ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:48.946Z - Time taken for 'createNodes:merge' 16.22809999999936ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:48.946Z - Time taken for 'native-file-deps' 0.028299999999944703ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:48.946Z - Time taken for 'get-workspace-files' 1.555699999999888ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:48.946Z - Time taken for 'get-all-workspace-files' 0.4488000000001193ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:48.946Z - Time taken for 'read cache' 0.3686999999999898ms
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:48.949Z - [Messenger] Received message, length: 47
+[isolated-plugin] shutting down worker for "@nx/js/typescript" after createDependencies
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:48.956Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:48.957Z - Time taken for '@nx/js/typescript:createDependencies' 19.53360000000066ms
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:48.956Z - [Messenger] Received message, length: 119
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.020Z - Closed a connection. Number of open connections: 1
+[1m[33mTime taken for 'build typescript dependencies' 757.5754999999999ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/js/dependencies-and-lockfile" after createDependencies
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.867Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:49.867Z - [Messenger] Received message, length: 47
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.901Z - [SYNC]: collect registered sync generators
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.903Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.918Z - Wrote project graph cache to D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\.nx\workspace-data\project-graph.json
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.919Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.919Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.919Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.920Z - Time taken for 'total for creating and serializing project graph' 5230.216100000001ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.920Z - Time taken for 'total execution time for createProjectGraph()' 973.8518999999997ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.920Z - Time taken for 'createDependencies' 955.8344999999999ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.920Z - Time taken for 'nx/js/dependencies-and-lockfile:createDependencies' 955.1936000000005ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.920Z - Time taken for 'createMetadata' 0.08989999999994325ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.920Z - Time taken for 'serialize graph' 6.482899999999972ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.920Z - Time taken for 'write cache' 14.497600000000602ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.927Z - Done responding to the client project-graph
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.928Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 5231. Response time: 9.
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:49.928Z - [Messenger] Received message, length: 657465
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:49.942Z - [Messenger] Sending message type: PRE_TASKS_EXECUTION
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:49.942Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.946Z - Received raw message of length 1203
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.946Z - Received json message of type PRE_TASKS_EXECUTION
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.949Z - Serializing response for PRE_TASKS_EXECUTION message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.949Z - Responding to PRE_TASKS_EXECUTION message
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.949Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.950Z - Time taken for 'preTasksExecution' 2.7416999999995824ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.950Z - Done responding to the client handleRunPreTasksExecution
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:49.950Z - Handled json message PRE_TASKS_EXECUTION. Handling time: 3. Response time: 1.
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:49.949Z - [Messenger] Received message, length: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.009Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.009Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:50.061Z - [Messenger] Sending message type: HASH_TASKS
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:50.062Z - [Messenger] Message sent
+[1m[33mSkipping project "prisma-client-eaa5acb3758a305e4418df7d52faa509d84efee12c21090dbd2cd8ca0f679b55" as there is no tsconfig.json file found in the project root "libs/data-access/src/generated/client".[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.513Z - Received raw message of length 7757
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.514Z - Received json message of type HASH_TASKS
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.515Z - Reusing in-memory cached project graph because no files changed.
+DEBUG nx::native::tasks::hash_planner: get_plans_internal COMPLETED in 8.8857ms - processed 1 tasks (setup: 6.3914ms, parallel_planning: 2.4866ms)
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "8754874883597051309" (".gitignore") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Adding "11565039115368623669" ("nx.json") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset with inputs: Hash Value: "16661348205436490258"
+DEBUG nx::native::tasks::task_hasher: hash_plans COMPLETED in 6.9669ms - processed 1 plans (setup: 560µs, hashing: 6.4035ms, assembly: 3.1446ms)
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.550Z - Serializing response for HASH_TASKS message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.551Z - Responding to HASH_TASKS message
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.551Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:50.551Z - [Messenger] Received message, length: 57915
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.552Z - Time taken for 'createProjectGraphAsync' 0.5507999999999811ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.561Z - Done responding to the client handleHashTasks
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.561Z - Handled json message HASH_TASKS. Handling time: 36. Response time: 11.
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:50.578Z - [Messenger] Sending message type: GET_ESTIMATED_TASK_TIMINGS
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:50.579Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.600Z - Received raw message of length 88
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.600Z - Received json message of type GET_ESTIMATED_TASK_TIMINGS
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.618Z - Serializing response for GET_ESTIMATED_TASK_TIMINGS message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.618Z - Responding to GET_ESTIMATED_TASK_TIMINGS message
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.618Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:50.618Z - [Messenger] Received message, length: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.621Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.622Z - Handled json message GET_ESTIMATED_TASK_TIMINGS. Handling time: 18. Response time: 4.
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.753Z - [SYNC]: @nx/js:typescript-sync changes: apps/buzz-fest/tsconfig.json
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.754Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 742.9470999999994ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.757Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.868Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.868Z - [REQUEST]: 
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:50.868Z - [REQUEST]: 
+[plugin-client] restarting worker for "@nx/js/typescript"
+[isolated-plugin] spawned worker for "@nx/js/typescript" (pid: 21212, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-6-7798.8469.sock)
+[plugin-client] restarting worker for "@nx/next/plugin"
+[isolated-plugin] spawned worker for "@nx/next/plugin" (pid: 26252, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-7-7830.3243.sock)
+[plugin-client] restarting worker for "@nx/eslint/plugin"
+[isolated-plugin] spawned worker for "@nx/eslint/plugin" (pid: 20724, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-8-7867.6084.sock)
+[plugin-client] restarting worker for "nx/js/dependencies-and-lockfile"
+[isolated-plugin] spawned worker for "nx/js/dependencies-and-lockfile" (pid: 4612, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-9-7898.8412.sock)
+[plugin-client] restarting worker for "nx/core/package-json"
+[isolated-plugin] spawned worker for "nx/core/package-json" (pid: 26680, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-10-7934.6098.sock)
+[plugin-client] restarting worker for "nx/core/project-json"
+[isolated-plugin] spawned worker for "nx/core/project-json" (pid: 15616, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-11-7971.0999.sock)
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:51.083Z - Time taken for 'hash changed files from watcher' 0.481300000000374ms
+[plugin-worker] "@nx/js/typescript" (pid: 21212) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-6-7798.8469.sock
+[1m[33mTime taken for 'plugin worker 21212 code loading' 624.8699ms[39m[22m
+[isolated-plugin] connected to worker for "@nx/js/typescript" (pid: 21212)
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:51.684Z - Time taken for 'start-plugin-worker:@nx/js/typescript' 809.8042000000005ms
+[plugin-worker] "@nx/js/typescript" (pid: 21212) connected
+[isolated-plugin] connected to worker for "@nx/next/plugin" (pid: 26252)
+[plugin-worker] "@nx/next/plugin" (pid: 26252) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-7-7830.3243.sock
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:51.700Z - Time taken for 'start-plugin-worker:@nx/next/plugin' 793.6373000000003ms
+[plugin-worker] "@nx/next/plugin" (pid: 26252) connected
+[1m[33mTime taken for 'plugin worker 26252 code loading' 617.0065999999999ms[39m[22m
+[plugin-worker] "nx/js/dependencies-and-lockfile" (pid: 4612) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-9-7898.8412.sock
+[1m[33mTime taken for 'plugin worker 4612 code loading' 575.8063ms[39m[22m
+[isolated-plugin] connected to worker for "nx/js/dependencies-and-lockfile" (pid: 4612)
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:51.742Z - Time taken for 'start-plugin-worker:nx/js/dependencies-and-lockfile' 767.9944000000005ms
+[plugin-worker] "nx/js/dependencies-and-lockfile" (pid: 4612) connected
+[plugin-worker] "@nx/eslint/plugin" (pid: 20724) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-8-7867.6084.sock
+[1m[33mTime taken for 'plugin worker 20724 code loading' 623.2108ms[39m[22m
+[plugin-worker] "nx/core/package-json" (pid: 26680) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-10-7934.6098.sock
+[isolated-plugin] connected to worker for "@nx/eslint/plugin" (pid: 20724)
+[1m[33mTime taken for 'plugin worker 26680 code loading' 575.9262ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:51.754Z - Time taken for 'start-plugin-worker:@nx/eslint/plugin' 811.8821000000007ms
+[isolated-plugin] connected to worker for "nx/core/package-json" (pid: 26680)
+[plugin-worker] "@nx/eslint/plugin" (pid: 20724) connected
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:51.756Z - Time taken for 'start-plugin-worker:nx/core/package-json' 747.1603999999998ms
+[plugin-worker] "nx/core/package-json" (pid: 26680) connected
+[isolated-plugin] connected to worker for "nx/core/project-json" (pid: 15616)
+[plugin-worker] "nx/core/project-json" (pid: 15616) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-11-7971.0999.sock
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:51.808Z - Time taken for 'start-plugin-worker:nx/core/project-json' 761.6240000000007ms
+[plugin-worker] "nx/core/project-json" (pid: 15616) connected
+[1m[33mTime taken for 'plugin worker 15616 code loading' 591.0277ms[39m[22m
+[plugin-worker] "nx/core/package-json" (pid: 26680) loaded successfully
+[1m[33mTime taken for 'nx/core/package-json:createNodes' 21.89639999999997ms[39m[22m
+[plugin-worker] "nx/js/dependencies-and-lockfile" (pid: 4612) loaded successfully
+[isolated-plugin] shutting down worker for "nx/core/package-json" after createNodes
+[plugin-worker] "nx/core/project-json" (pid: 15616) loaded successfully
+[1m[33mTime taken for 'nx/core/project-json:createNodes' 1.5575000000000045ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/core/project-json" after createNodes
+[1m[33mTime taken for 'nx/js/dependencies-and-lockfile:createNodes' 22.945999999999913ms[39m[22m
+[plugin-worker] "@nx/js/typescript" (pid: 21212) loaded successfully
+[1m[33mTime taken for '@nx/js/typescript:createNodes' 22.662000000000035ms[39m[22m
+[plugin-worker] "@nx/next/plugin" (pid: 26252) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:52.555Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:52.559Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:52.560Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:52.560Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:52.562Z - [Messenger] listen() complete
+[plugin-worker] "@nx/eslint/plugin" (pid: 20724) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:52.625Z - Established a connection. Number of open connections: 3
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:52.629Z - Closed a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:52.632Z - Established a connection. Number of open connections: 3
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:52.631Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:52.633Z - [Messenger] listen() complete
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:53.181Z - [Messenger] Sending message type: HASH_GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:53.183Z - [Messenger] Message sent
+[1m[33mTime taken for 'daemon-message-serialization-HASH_GLOB' 0.14600000000018554ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.185Z - Received raw message of length 76
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.185Z - Received json message of type HASH_GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.188Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.188Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.188Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.188Z - Done responding to the client handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.189Z - Handled json message HASH_GLOB. Handling time: 3. Response time: 0.
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:53.189Z - [Messenger] Received message, length: 20
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:53.191Z - [Messenger] Sending message type: HASH_GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:53.192Z - [Messenger] Message sent
+[1m[33mTime taken for 'HASH_GLOB round trip' 8.452699999999822ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_GLOB' 0.04529999999977008ms[39m[22m
+[1m[33mTime taken for 'daemon-message-serialization-HASH_GLOB' 0.059099999999943975ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.193Z - Received raw message of length 75
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.193Z - Received json message of type HASH_GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.194Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.194Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.194Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.194Z - Done responding to the client handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.195Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 1.
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:53.195Z - [Messenger] Received message, length: 21
+[1m[33mTime taken for '@nx/next/plugin:createNodes' 658.1477999999997ms[39m[22m
+[1m[33mTime taken for 'HASH_GLOB round trip' 4.587400000000343ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_GLOB' 0.04570000000012442ms[39m[22m
+[isolated-plugin] shutting down worker for "@nx/next/plugin" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.279Z - Closed a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:53.301Z - [Messenger] Sending message type: GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:53.302Z - [Messenger] Message sent
+[1m[33mTime taken for 'daemon-message-serialization-GLOB' 0.2448999999996886ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.306Z - Received raw message of length 73
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.306Z - Received json message of type GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.307Z - Serializing response for GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.307Z - Responding to GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.308Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.308Z - Done responding to the client handleGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.308Z - Handled json message GLOB. Handling time: 0. Response time: 1.
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:53.307Z - [Messenger] Received message, length: 7924
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:53.319Z - [Messenger] Sending message type: HASH_MULTI_GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:53.320Z - [Messenger] Message sent
+[1m[33mTime taken for 'GLOB round trip' 7.675200000000132ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - GLOB' 0.07880000000022847ms[39m[22m
+[1m[33mTime taken for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.07540000000017244ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.326Z - Received raw message of length 582
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.326Z - Received json message of type HASH_MULTI_GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.327Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.328Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.328Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.328Z - Done responding to the client handleHashMultiGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.328Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 1.
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:45:53.327Z - [Messenger] Received message, length: 110
+[1m[33mTime taken for '@nx/eslint/plugin:createNodes' 1317.0027000000002ms[39m[22m
+[1m[33mTime taken for 'HASH_MULTI_GLOB round trip' 9.198399999999765ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_MULTI_GLOB' 0.05449999999973443ms[39m[22m
+[isolated-plugin] shutting down worker for "@nx/eslint/plugin" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.970Z - Time taken for 'build-project-configs' 3071.7689ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.971Z - Time taken for 'createNodes:merge' 4.580100000001039ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.971Z - Time taken for 'get-all-workspace-files' 0.6957000000002154ms
+[isolated-plugin] shutting down worker for "@nx/js/typescript" after createDependencies
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:53.984Z - Time taken for '@nx/js/typescript:createDependencies' 23.827699999999822ms
+[1m[33mTime taken for 'build typescript dependencies' 0.4216000000001259ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/js/dependencies-and-lockfile" after createDependencies
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:54.026Z - [SYNC]: collect registered sync generators
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:54.027Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:54.028Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:54.028Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:54.029Z - Time taken for 'total execution time for createProjectGraph()' 76.48040000000037ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:54.029Z - Time taken for 'createDependencies' 60.97190000000046ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:54.029Z - Time taken for 'nx/js/dependencies-and-lockfile:createDependencies' 60.69579999999951ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:54.029Z - Time taken for 'createMetadata' 0.03920000000107393ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:54.029Z - Time taken for 'serialize graph' 5.221700000000055ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:54.042Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:54.237Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:54.237Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[1m[33mSkipping project "prisma-client-eaa5acb3758a305e4418df7d52faa509d84efee12c21090dbd2cd8ca0f679b55" as there is no tsconfig.json file found in the project root "libs/data-access/src/generated/client".[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:54.271Z - [SYNC]: @nx/js:typescript-sync changes: apps/buzz-fest/tsconfig.json
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:54.272Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 33.5538000000015ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:54.272Z - Time taken for 'createProjectGraphAsync' 0.2573000000011234ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:57.506Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:57.768Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:57.839Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:57.894Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:58.001Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:58.280Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:58.844Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:59.119Z - [LATEST-NX]: Successfully pulled latest Nx to C:\Users\ROHINI\AppData\Local\Temp\tmp-28888-HoEZy8211RwS
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:59.121Z - [NX-CONSOLE]: Using local implementation (NX_USE_LOCAL=true or inner call)
+DEBUG nx::native::ide::preferences: Loaded console preferences: NxConsolePreferences { auto_install_console: Some(true), path: "C:\\Users\\ROHINI\\.nx\\ide.json" }
+DEBUG nx::native::ide::install: Detected editor: VSCode
+DEBUG nx::native::ide::install: Checking if Nx Console extension is installed with: code.cmd --list-extensions
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:59.122Z - [AI-AGENTS]: Failed to compute agent configuration status from latest Nx. Error: Only URLs with a scheme in: file, data, and node are supported by the default ESM loader. On Windows, absolute paths must be valid file:// URLs. Received protocol 'd:'
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:59.122Z - [AI-AGENTS]: Agent configuration status computation completed: 0 fully configured, 0 outdated, 0 partially configured, 0 non-configured
+DEBUG nx::native::ide::install: Nx Console extension is installed
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:59.607Z - [NX-CONSOLE]: Console status check completed, shouldPrompt: false
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:45:59.837Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:00.138Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:00.617Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:01.847Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:02.004Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:02.066Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:02.146Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:02.664Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:02.721Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:05.894Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:09.364Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:09.708Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:13.688Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:13.892Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:14.267Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:14.702Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:14.890Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:17.033Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:17.084Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:17.148Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:20.328Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:20.439Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:31.345Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:31.483Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:33.761Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:33.814Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:46:33.876Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:19.902Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 8 file(s) deleted
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:19.902Z - [WATCHER]: File changes detected:
+Created:
+(none)
+Updated:
+(none)
+Deleted:
+  - apps/buzz-fest/src/app/hooks/useDebounce.ts
+  - apps/buzz-fest/src/app/hooks/useUpdateFilters.ts
+  - apps/buzz-fest/src/app/hooks/useCart.ts
+  - apps/buzz-fest/src/app/hooks
+  - apps/buzz-fest/src/app/types/product.ts
+  - apps/buzz-fest/src/app/hooks/use-mobile.ts
+  - apps/buzz-fest/src/app/hooks/useUpdateFilters_odd.ts
+  - apps/buzz-fest/src/app/types
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:19.902Z - [SYNC]: clearing sync generators cache due to file changes
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:19.902Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:20.010Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:20.011Z - [REQUEST]: 
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:20.011Z - [REQUEST]: apps/buzz-fest/src/app/hooks/useDebounce.ts,apps/buzz-fest/src/app/hooks/useUpdateFilters.ts,apps/buzz-fest/src/app/hooks/useCart.ts,apps/buzz-fest/src/app/hooks,apps/buzz-fest/src/app/types/product.ts,apps/buzz-fest/src/app/hooks/use-mobile.ts,apps/buzz-fest/src/app/hooks/useUpdateFilters_odd.ts,apps/buzz-fest/src/app/types
+[plugin-client] restarting worker for "@nx/js/typescript"
+[isolated-plugin] spawned worker for "@nx/js/typescript" (pid: 19180, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-12-96938.5021.sock)
+[plugin-client] restarting worker for "@nx/next/plugin"
+[isolated-plugin] spawned worker for "@nx/next/plugin" (pid: 27924, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-13-96954.8411.sock)
+[plugin-client] restarting worker for "@nx/eslint/plugin"
+[isolated-plugin] spawned worker for "@nx/eslint/plugin" (pid: 23036, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-14-96972.3509.sock)
+[plugin-client] restarting worker for "nx/js/dependencies-and-lockfile"
+[isolated-plugin] spawned worker for "nx/js/dependencies-and-lockfile" (pid: 15480, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-15-96988.4611.sock)
+[plugin-client] restarting worker for "nx/core/package-json"
+[isolated-plugin] spawned worker for "nx/core/package-json" (pid: 3548, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-16-97007.4976.sock)
+[plugin-client] restarting worker for "nx/core/project-json"
+[isolated-plugin] spawned worker for "nx/core/project-json" (pid: 18856, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-17-97025.358.sock)
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:20.117Z - Time taken for 'hash changed files from watcher' 0.4544000000023516ms
+[plugin-worker] "nx/core/project-json" (pid: 18856) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-17-97025.358.sock
+[plugin-worker] "@nx/js/typescript" (pid: 19180) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-12-96938.5021.sock
+[plugin-worker] "nx/core/package-json" (pid: 3548) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-16-97007.4976.sock
+[plugin-worker] "@nx/eslint/plugin" (pid: 23036) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-14-96972.3509.sock
+[plugin-worker] "nx/js/dependencies-and-lockfile" (pid: 15480) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-15-96988.4611.sock
+[plugin-worker] "@nx/next/plugin" (pid: 27924) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-13-96954.8411.sock
+[1m[33mTime taken for 'plugin worker 18856 code loading' 2132.5519999999997ms[39m[22m
+[1m[33mTime taken for 'plugin worker 19180 code loading' 2179.5126999999998ms[39m[22m
+[1m[33mTime taken for 'plugin worker 3548 code loading' 2148.6357ms[39m[22m
+[1m[33mTime taken for 'plugin worker 23036 code loading' 2180.3401ms[39m[22m
+[1m[33mTime taken for 'plugin worker 15480 code loading' 2162.4769ms[39m[22m
+[1m[33mTime taken for 'plugin worker 27924 code loading' 2180.4571ms[39m[22m
+[isolated-plugin] connected to worker for "nx/core/project-json" (pid: 18856)
+[isolated-plugin] connected to worker for "@nx/js/typescript" (pid: 19180)
+[isolated-plugin] connected to worker for "@nx/next/plugin" (pid: 27924)
+[isolated-plugin] connected to worker for "@nx/eslint/plugin" (pid: 23036)
+[isolated-plugin] connected to worker for "nx/js/dependencies-and-lockfile" (pid: 15480)
+[isolated-plugin] connected to worker for "nx/core/package-json" (pid: 3548)
+[plugin-worker] "@nx/js/typescript" (pid: 19180) connected
+[plugin-worker] "@nx/next/plugin" (pid: 27924) connected
+[plugin-worker] "nx/js/dependencies-and-lockfile" (pid: 15480) connected
+[plugin-worker] "nx/core/project-json" (pid: 18856) connected
+[plugin-worker] "@nx/eslint/plugin" (pid: 23036) connected
+[plugin-worker] "nx/core/package-json" (pid: 3548) connected
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:22.324Z - Time taken for 'start-plugin-worker:@nx/js/typescript' 2309.3945999999996ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:22.324Z - Time taken for 'start-plugin-worker:@nx/next/plugin' 2293.238499999992ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:22.324Z - Time taken for 'start-plugin-worker:@nx/eslint/plugin' 2276.4275000000052ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:22.324Z - Time taken for 'start-plugin-worker:nx/js/dependencies-and-lockfile' 2260.6015000000043ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:22.324Z - Time taken for 'start-plugin-worker:nx/core/package-json' 2242.0016000000032ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:22.324Z - Time taken for 'start-plugin-worker:nx/core/project-json' 2221.3983000000007ms
+[plugin-worker] "nx/core/project-json" (pid: 18856) loaded successfully
+[1m[33mTime taken for 'nx/core/project-json:createNodes' 0.9265000000000327ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/core/project-json" after createNodes
+[plugin-worker] "nx/core/package-json" (pid: 3548) loaded successfully
+[1m[33mTime taken for 'nx/core/package-json:createNodes' 11.289899999999761ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/core/package-json" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:23.571Z - [WATCHER]: Processing file changes in outputs
+[plugin-worker] "nx/js/dependencies-and-lockfile" (pid: 15480) loaded successfully
+[1m[33mTime taken for 'nx/js/dependencies-and-lockfile:createNodes' 32.54140000000007ms[39m[22m
+[plugin-worker] "@nx/js/typescript" (pid: 19180) loaded successfully
+[1m[33mTime taken for '@nx/js/typescript:createNodes' 20.984999999999673ms[39m[22m
+[plugin-worker] "@nx/next/plugin" (pid: 27924) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.205Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.207Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.207Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:47:25.207Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:47:25.208Z - [Messenger] listen() complete
+[plugin-worker] "@nx/eslint/plugin" (pid: 23036) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.243Z - Established a connection. Number of open connections: 3
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.245Z - Established a connection. Number of open connections: 4
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.245Z - Closed a connection. Number of open connections: 3
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:47:25.244Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:47:25.245Z - [Messenger] listen() complete
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:47:25.912Z - [Messenger] Sending message type: HASH_GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:47:25.912Z - [Messenger] Sending message type: GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:47:25.912Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:47:25.913Z - [Messenger] Message sent
+[1m[33mTime taken for 'daemon-message-serialization-HASH_GLOB' 0.04760000000078435ms[39m[22m
+[1m[33mTime taken for 'daemon-message-serialization-GLOB' 0.04179999999996653ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.915Z - Received raw message of length 76
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.915Z - Received json message of type HASH_GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.915Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.915Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.915Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.916Z - Received raw message of length 73
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.916Z - Received json message of type GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:47:25.915Z - [Messenger] Received message, length: 20
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.916Z - Serializing response for GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.916Z - Responding to GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.916Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.916Z - Done responding to the client handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.916Z - Handled json message HASH_GLOB. Handling time: 0. Response time: 1.
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.916Z - Done responding to the client handleGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.916Z - Handled json message GLOB. Handling time: 0. Response time: 0.
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:47:25.916Z - [Messenger] Received message, length: 7643
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:47:25.916Z - [Messenger] Sending message type: HASH_GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:47:25.917Z - [Messenger] Message sent
+[1m[33mTime taken for 'HASH_GLOB round trip' 3.764799999999923ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_GLOB' 0.025900000000547152ms[39m[22m
+[1m[33mTime taken for 'daemon-message-serialization-HASH_GLOB' 0.02760000000034779ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.918Z - Received raw message of length 75
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.918Z - Received json message of type HASH_GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.919Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.919Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.919Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.919Z - Done responding to the client handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.919Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:47:25.918Z - [Messenger] Received message, length: 21
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:47:25.921Z - [Messenger] Sending message type: HASH_MULTI_GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:47:25.922Z - [Messenger] Message sent
+[1m[33mTime taken for 'GLOB round trip' 4.272500000000036ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - GLOB' 0.04340000000047439ms[39m[22m
+[1m[33mTime taken for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.03999999999996362ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.923Z - Received raw message of length 582
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.924Z - Received json message of type HASH_MULTI_GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.924Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.924Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.924Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.924Z - Done responding to the client handleHashMultiGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:25.925Z - Handled json message HASH_GLOB. Handling time: 0. Response time: 1.
+[NX v22.7.5 Daemon Client] - 2026-06-10T04:47:25.924Z - [Messenger] Received message, length: 111
+[1m[33mTime taken for '@nx/next/plugin:createNodes' 2401.5514999999996ms[39m[22m
+[1m[33mTime taken for 'HASH_GLOB round trip' 2.5776999999998225ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_GLOB' 0.03949999999986176ms[39m[22m
+[isolated-plugin] shutting down worker for "@nx/next/plugin" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:27.659Z - Closed a connection. Number of open connections: 2
+[1m[33mTime taken for 'HASH_MULTI_GLOB round trip' 2.8645000000005894ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_MULTI_GLOB' 0.033800000000155705ms[39m[22m
+[1m[33mTime taken for '@nx/eslint/plugin:createNodes' 8773.6784ms[39m[22m
+[isolated-plugin] shutting down worker for "@nx/eslint/plugin" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.024Z - Time taken for 'build-project-configs' 14000.462700000004ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.024Z - Time taken for 'createNodes:merge' 2.8584999999875436ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.024Z - Time taken for 'get-all-workspace-files' 0.2661000000080094ms
+[isolated-plugin] shutting down worker for "@nx/js/typescript" after createDependencies
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.032Z - Time taken for '@nx/js/typescript:createDependencies' 12.268700000000536ms
+[1m[33mTime taken for 'build typescript dependencies' 0.3433999999997468ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/js/dependencies-and-lockfile" after createDependencies
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.075Z - [SYNC]: collect registered sync generators
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.076Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.076Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.076Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.076Z - Time taken for 'total execution time for createProjectGraph()' 57.9881999999925ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.076Z - Time taken for 'createDependencies' 51.28209999999672ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.076Z - Time taken for 'nx/js/dependencies-and-lockfile:createDependencies' 51.12129999999888ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.076Z - Time taken for 'createMetadata' 0.012199999997392297ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.076Z - Time taken for 'serialize graph' 4.039400000008754ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.087Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.478Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.479Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[1m[33mSkipping project "prisma-client-eaa5acb3758a305e4418df7d52faa509d84efee12c21090dbd2cd8ca0f679b55" as there is no tsconfig.json file found in the project root "libs/data-access/src/generated/client".[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.504Z - [SYNC]: @nx/js:typescript-sync changes: apps/buzz-fest/tsconfig.json
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.504Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 24.97370000000228ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T04:47:34.504Z - Time taken for 'createProjectGraphAsync' 0.20959999998740386ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:23.721Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:23.721Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:23.722Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:23.722Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:23.722Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:23.723Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:23.724Z - [Messenger] listen() complete
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:24.104Z - [Messenger] Sending message type: GET_NX_CONSOLE_STATUS
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:24.104Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.107Z - Received raw message of length 4619
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.107Z - Received json message of type GET_NX_CONSOLE_STATUS
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.107Z - Refreshing env var Path from client connection.
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.107Z - Graph recompute necessary due to env variable refresh
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.108Z - Serializing response for GET_NX_CONSOLE_STATUS message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.108Z - Responding to GET_NX_CONSOLE_STATUS message
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.108Z - [REQUEST]: Responding to the client. handleGetNxConsoleStatus
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.108Z - Done responding to the client handleGetNxConsoleStatus
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.108Z - Handled json message GET_NX_CONSOLE_STATUS. Handling time: 0. Response time: 0.
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:24.109Z - [Messenger] Received message, length: 22
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:24.152Z - [Messenger] Sending message type: REQUEST_PROJECT_GRAPH
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:24.153Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.154Z - Received raw message of length 32
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.154Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.154Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.155Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.155Z - [REQUEST]: 
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.155Z - [REQUEST]: 
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.156Z - No files changed, but no in-memory cached project graph found. Recomputing it...
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.156Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:24.156Z - [Messenger] Received message, length: 47
+[plugin-client] restarting worker for "@nx/js/typescript"
+[isolated-plugin] spawned worker for "@nx/js/typescript" (pid: 28176, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-18-1661083.0891.sock)
+[plugin-client] restarting worker for "@nx/next/plugin"
+[isolated-plugin] spawned worker for "@nx/next/plugin" (pid: 9892, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-19-1661100.4976.sock)
+[plugin-client] restarting worker for "@nx/eslint/plugin"
+[isolated-plugin] spawned worker for "@nx/eslint/plugin" (pid: 25512, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-20-1661116.6822.sock)
+[plugin-client] restarting worker for "nx/js/dependencies-and-lockfile"
+[isolated-plugin] spawned worker for "nx/js/dependencies-and-lockfile" (pid: 2260, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-21-1661130.2794.sock)
+[plugin-client] restarting worker for "nx/core/package-json"
+[isolated-plugin] spawned worker for "nx/core/package-json" (pid: 7012, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-22-1661145.0541.sock)
+[plugin-client] restarting worker for "nx/core/project-json"
+[isolated-plugin] spawned worker for "nx/core/project-json" (pid: 11272, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-23-1661165.9417.sock)
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.264Z - Time taken for 'hash changed files from watcher' 0.288399999961257ms
+[plugin-worker] "@nx/js/typescript" (pid: 28176) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-18-1661083.0891.sock
+[1m[33mTime taken for 'plugin worker 28176 code loading' 319.40290000000005ms[39m[22m
+[isolated-plugin] connected to worker for "@nx/js/typescript" (pid: 28176)
+[plugin-worker] "@nx/js/typescript" (pid: 28176) connected
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.568Z - Time taken for 'start-plugin-worker:@nx/js/typescript' 410.0456000000704ms
+[plugin-worker] "@nx/next/plugin" (pid: 9892) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-19-1661100.4976.sock
+[1m[33mTime taken for 'plugin worker 9892 code loading' 316.31350000000003ms[39m[22m
+[isolated-plugin] connected to worker for "@nx/next/plugin" (pid: 9892)
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.584Z - Time taken for 'start-plugin-worker:@nx/next/plugin' 409.4095999998972ms
+[plugin-worker] "@nx/next/plugin" (pid: 9892) connected
+[plugin-worker] "@nx/eslint/plugin" (pid: 25512) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-20-1661116.6822.sock
+[1m[33mTime taken for 'plugin worker 25512 code loading' 314.3949ms[39m[22m
+[isolated-plugin] connected to worker for "@nx/eslint/plugin" (pid: 25512)
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.598Z - Time taken for 'start-plugin-worker:@nx/eslint/plugin' 406.75130000011995ms
+[plugin-worker] "@nx/eslint/plugin" (pid: 25512) connected
+[plugin-worker] "nx/core/package-json" (pid: 7012) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-22-1661145.0541.sock
+[isolated-plugin] connected to worker for "nx/core/package-json" (pid: 7012)
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.626Z - Time taken for 'start-plugin-worker:nx/core/package-json' 407.030999999959ms
+[plugin-worker] "nx/core/package-json" (pid: 7012) connected
+[plugin-worker] "nx/js/dependencies-and-lockfile" (pid: 2260) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-21-1661130.2794.sock
+[1m[33mTime taken for 'plugin worker 7012 code loading' 306.1689ms[39m[22m
+[1m[33mTime taken for 'plugin worker 2260 code loading' 320.5579ms[39m[22m
+[isolated-plugin] connected to worker for "nx/js/dependencies-and-lockfile" (pid: 2260)
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.644Z - Time taken for 'start-plugin-worker:nx/js/dependencies-and-lockfile' 439.22580000013113ms
+[plugin-worker] "nx/js/dependencies-and-lockfile" (pid: 2260) connected
+[plugin-worker] "nx/core/project-json" (pid: 11272) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin28888-23-1661165.9417.sock
+[isolated-plugin] connected to worker for "nx/core/project-json" (pid: 11272)
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.656Z - Time taken for 'start-plugin-worker:nx/core/project-json' 415.33089999994263ms
+[1m[33mTime taken for 'plugin worker 11272 code loading' 311.9939ms[39m[22m
+[plugin-worker] "nx/core/project-json" (pid: 11272) connected
+[plugin-worker] "nx/core/package-json" (pid: 7012) loaded successfully
+[1m[33mTime taken for 'nx/core/package-json:createNodes' 10.809300000000007ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/core/package-json" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.834Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:24.834Z - [Messenger] Received message, length: 220
+[plugin-worker] "nx/core/project-json" (pid: 11272) loaded successfully
+[1m[33mTime taken for 'nx/core/project-json:createNodes' 0.9510000000000218ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/core/project-json" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.843Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:24.844Z - [Messenger] Received message, length: 194
+[plugin-worker] "nx/js/dependencies-and-lockfile" (pid: 2260) loaded successfully
+[1m[33mTime taken for 'nx/js/dependencies-and-lockfile:createNodes' 17.539100000000076ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:24.912Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:24.913Z - [Messenger] Received message, length: 157
+[plugin-worker] "@nx/js/typescript" (pid: 28176) loaded successfully
+[1m[33mTime taken for '@nx/js/typescript:createNodes' 16.35800000000006ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.172Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.173Z - [Messenger] Received message, length: 134
+[plugin-worker] "@nx/next/plugin" (pid: 9892) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.272Z - Established a connection. Number of open connections: 3
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.274Z - Closed a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.275Z - Established a connection. Number of open connections: 3
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.275Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.276Z - [Messenger] listen() complete
+[plugin-worker] "@nx/eslint/plugin" (pid: 25512) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.285Z - Established a connection. Number of open connections: 4
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.287Z - Closed a connection. Number of open connections: 3
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.288Z - Established a connection. Number of open connections: 4
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.288Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.289Z - [Messenger] listen() complete
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.556Z - [Messenger] Sending message type: HASH_GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.557Z - [Messenger] Message sent
+[1m[33mTime taken for 'daemon-message-serialization-HASH_GLOB' 0.05259999999998399ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.558Z - Received raw message of length 76
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.558Z - Received json message of type HASH_GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.558Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.558Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.558Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.558Z - Done responding to the client handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.558Z - Handled json message HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.559Z - [Messenger] Received message, length: 20
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.560Z - [Messenger] Sending message type: HASH_GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.560Z - [Messenger] Message sent
+[1m[33mTime taken for 'HASH_GLOB round trip' 3.369899999999916ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_GLOB' 0.022600000000011278ms[39m[22m
+[1m[33mTime taken for 'daemon-message-serialization-HASH_GLOB' 0.029399999999895954ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.561Z - Received raw message of length 75
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.561Z - Received json message of type HASH_GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.562Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.562Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.562Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.562Z - Done responding to the client handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.562Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.562Z - [Messenger] Received message, length: 21
+[1m[33mTime taken for '@nx/next/plugin:createNodes' 299.67560000000003ms[39m[22m
+[1m[33mTime taken for 'HASH_GLOB round trip' 2.6760999999999058ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_GLOB' 0.02769999999986794ms[39m[22m
+[isolated-plugin] shutting down worker for "@nx/next/plugin" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.565Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.566Z - [Messenger] Received message, length: 98
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.568Z - [Messenger] Sending message type: GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.568Z - [Messenger] Message sent
+[1m[33mTime taken for 'daemon-message-serialization-GLOB' 0.037400000000161526ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.570Z - Received raw message of length 73
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.570Z - Received json message of type GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.570Z - Serializing response for GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.570Z - Responding to GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.570Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.570Z - Done responding to the client handleGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.570Z - Handled json message GLOB. Handling time: 0. Response time: 0.
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.571Z - [Messenger] Received message, length: 7643
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.575Z - [Messenger] Sending message type: HASH_MULTI_GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.575Z - [Messenger] Message sent
+[1m[33mTime taken for 'GLOB round trip' 3.358699999999999ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - GLOB' 0.029999999999972715ms[39m[22m
+[1m[33mTime taken for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.03099999999994907ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.576Z - Received raw message of length 582
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.576Z - Received json message of type HASH_MULTI_GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.577Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.577Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.577Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.577Z - Done responding to the client handleHashMultiGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.577Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.577Z - [Messenger] Received message, length: 111
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.632Z - Closed a connection. Number of open connections: 3
+[1m[33mTime taken for '@nx/eslint/plugin:createNodes' 681.5723ms[39m[22m
+[1m[33mTime taken for 'HASH_MULTI_GLOB round trip' 2.5119999999999436ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_MULTI_GLOB' 0.026499999999941792ms[39m[22m
+[isolated-plugin] shutting down worker for "@nx/eslint/plugin" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.963Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.963Z - [Messenger] Received message, length: 47
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.971Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.975Z - Time taken for 'build-project-configs' 1809.3312000001315ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.975Z - Time taken for 'createNodes:merge' 2.044200000120327ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.975Z - Time taken for 'get-all-workspace-files' 0.21779999998398125ms
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.975Z - [Messenger] Received message, length: 47
+[isolated-plugin] shutting down worker for "@nx/js/typescript" after createDependencies
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.978Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.979Z - [Messenger] Received message, length: 119
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.978Z - Time taken for '@nx/js/typescript:createDependencies' 6.603399999905378ms
+[1m[33mTime taken for 'build typescript dependencies' 0.12799999999992906ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/js/dependencies-and-lockfile" after createDependencies
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:25.988Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:25.989Z - [Messenger] Received message, length: 47
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:26.007Z - Wrote project graph cache to D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\.nx\workspace-data\project-graph.json
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:26.007Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:26.007Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:26.007Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:26.007Z - Time taken for 'total for creating and serializing project graph' 1852.9757000000682ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:26.007Z - Time taken for 'total execution time for createProjectGraph()' 27.41980000003241ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:26.007Z - Time taken for 'createDependencies' 21.81499999994412ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:26.007Z - Time taken for 'nx/js/dependencies-and-lockfile:createDependencies' 21.58889999985695ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:26.007Z - Time taken for 'createMetadata' 0.011599999852478504ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:26.007Z - Time taken for 'serialize graph' 3.1773999999277294ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:26.007Z - Time taken for 'write cache' 9.721900000004098ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:26.011Z - Done responding to the client project-graph
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:26.011Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 1853. Response time: 4.
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:13:26.012Z - [Messenger] Received message, length: 657465
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:13:26.040Z - Closed a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:14:04.447Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:14:49.705Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:11.855Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:11.857Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:11.857Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:11.858Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:11.858Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:16:11.858Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:16:11.859Z - [Messenger] listen() complete
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:16:12.177Z - [Messenger] Sending message type: GET_NX_CONSOLE_STATUS
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:16:12.178Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:12.180Z - Received raw message of length 4619
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:12.181Z - Received json message of type GET_NX_CONSOLE_STATUS
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:12.181Z - Serializing response for GET_NX_CONSOLE_STATUS message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:12.181Z - Responding to GET_NX_CONSOLE_STATUS message
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:12.181Z - [REQUEST]: Responding to the client. handleGetNxConsoleStatus
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:12.181Z - Done responding to the client handleGetNxConsoleStatus
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:12.181Z - Handled json message GET_NX_CONSOLE_STATUS. Handling time: 0. Response time: 0.
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:16:12.182Z - [Messenger] Received message, length: 22
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:16:12.672Z - [Messenger] Sending message type: REQUEST_PROJECT_GRAPH
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:16:12.673Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:12.674Z - Received raw message of length 32
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:12.674Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:12.674Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:12.674Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:12.675Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:12.675Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:12.675Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:12.675Z - Time taken for 'total for creating and serializing project graph' 0.8399000000208616ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:12.677Z - Done responding to the client project-graph
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:12.677Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:16:12.678Z - [Messenger] Received message, length: 657465
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:13.025Z - Established a connection. Number of open connections: 3
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:13.025Z - Closed a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:16:13.037Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.229Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.229Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.231Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.231Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.231Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:17:05.231Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:17:05.233Z - [Messenger] listen() complete
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:17:05.536Z - [Messenger] Sending message type: GET_NX_CONSOLE_STATUS
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:17:05.537Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.540Z - Received raw message of length 4619
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.541Z - Received json message of type GET_NX_CONSOLE_STATUS
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.541Z - Serializing response for GET_NX_CONSOLE_STATUS message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.541Z - Responding to GET_NX_CONSOLE_STATUS message
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.541Z - [REQUEST]: Responding to the client. handleGetNxConsoleStatus
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.541Z - Done responding to the client handleGetNxConsoleStatus
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.541Z - Handled json message GET_NX_CONSOLE_STATUS. Handling time: 0. Response time: 0.
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:17:05.541Z - [Messenger] Received message, length: 22
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:17:05.582Z - [Messenger] Sending message type: REQUEST_PROJECT_GRAPH
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:17:05.583Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.584Z - Received raw message of length 32
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.584Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.584Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.585Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.585Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.585Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.585Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.586Z - Time taken for 'total for creating and serializing project graph' 0.8263000000733882ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.588Z - Done responding to the client project-graph
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:05.588Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 3.
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:17:05.588Z - [Messenger] Received message, length: 657465
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:17:08.917Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:20:28.632Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:20:37.775Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:20:45.387Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:03.249Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:04.520Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:13.222Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:13.282Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:18.931Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:18.994Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:19.185Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:19.248Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:19.420Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:19.481Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:19.604Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:19.686Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:20.188Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:20.250Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:20.387Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:20.447Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:20.759Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:20.820Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:21.071Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:21.125Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:21.244Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:21.305Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:21:25.688Z - [Messenger] Sending message type: RECORD_TASK_RUNS
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:21:25.689Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.695Z - Received raw message of length 207
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.695Z - Received json message of type RECORD_TASK_RUNS
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.698Z - Serializing response for RECORD_TASK_RUNS message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.698Z - Responding to RECORD_TASK_RUNS message
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.698Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.701Z - Done responding to the client handleRecordTaskRuns
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.701Z - Handled json message RECORD_TASK_RUNS. Handling time: 3. Response time: 3.
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.703Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:21:25.929Z - [Messenger] Received message, length: 4
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.934Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:21:25.935Z - [Messenger] Sending message type: GET_CONFIGURE_AI_AGENTS_STATUS
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:21:25.936Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.938Z - Received raw message of length 41
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.938Z - Received json message of type GET_CONFIGURE_AI_AGENTS_STATUS
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.939Z - [AI-AGENTS]: Returning cached agent configuration status
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.939Z - Serializing response for GET_CONFIGURE_AI_AGENTS_STATUS message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.939Z - Responding to GET_CONFIGURE_AI_AGENTS_STATUS message
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.939Z - [REQUEST]: Responding to the client. handleGetConfigureAiAgentsStatus
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.940Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.940Z - Done responding to the client handleGetConfigureAiAgentsStatus
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:21:25.940Z - [Messenger] Received message, length: 104
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.940Z - Handled json message GET_CONFIGURE_AI_AGENTS_STATUS. Handling time: 0. Response time: 1.
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:21:25.941Z - [Messenger] Sending message type: POST_TASKS_EXECUTION
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:21:25.943Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.944Z - Received raw message of length 59400
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.946Z - Received json message of type POST_TASKS_EXECUTION
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.948Z - Serializing response for POST_TASKS_EXECUTION message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.948Z - Responding to POST_TASKS_EXECUTION message
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.948Z - [REQUEST]: Responding to the client. handleRunPostTasksExecution
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.949Z - Time taken for 'postTasksExecution' 1.3362000002525747ms
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:21:25.949Z - [Messenger] Received message, length: 4
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.949Z - Done responding to the client handleRunPostTasksExecution
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.949Z - Handled json message POST_TASKS_EXECUTION. Handling time: 2. Response time: 1.
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:25.970Z - Closed a connection. Number of open connections: 0
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:48.289Z - [Server] Daemon outdated: NX_VERSION_CHANGED
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:48.289Z - [Server] Shutting down daemon (no restart)...
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:48.291Z - [WATCHER]: Stopping the watcher for D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest (sources)
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:48.291Z - [WATCHER]: Stopping the watcher for D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest (outputs)
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:48.292Z - [LATEST-NX]: Cleaning up latest Nx installation from C:\Users\ROHINI\AppData\Local\Temp\tmp-28888-HoEZy8211RwS
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:21:48.293Z - Server stopped because: "NX_VERSION_CHANGED"
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:27:55.847Z - [Client] Starting new daemon server in background
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:27:55.866Z - [Client] Waiting for server (max: 6000 attempts, 10ms interval)
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:27:59.790Z - New daemon starting from: D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\daemon\server\server.js
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:27:59.791Z - New daemon __dirname: D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\daemon\server
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:27:59.791Z - New daemon nxVersion: 22.7.5
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:27:59.792Z - New daemon getInstalledNxVersion(): 22.7.5
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:27:59.798Z - Time taken for 'workspace context init' 19.726200000000063ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:27:59.800Z - [Server] Starting outdated check interval (20ms)
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:27:59.805Z - Started listening on: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\8b45f4c2f1e9b82432c9\d.sock
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:27:59.811Z - [WATCHER]: Subscribed to changes within: D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest (native)
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:27:59.813Z - [LATEST-NX]: Pulling latest Nx...
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:27:59.823Z - [Client] Server available
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:27:59.823Z - [Client] Daemon server started, pid=14012
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:27:59.825Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:27:59.825Z - [Messenger] listen() complete
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:27:59.840Z - [AI-AGENTS]: Starting agent configuration status computation
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:27:59.848Z - Established a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:27:59.849Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:27:59.853Z - Closed a connection. Number of open connections: 1
+[isolated-plugin] spawned worker for "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 16508, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin14012-0-4050.0663.sock)
+[isolated-plugin] spawned worker for "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 13844, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin14012-1-4075.7076.sock)
+[isolated-plugin] spawned worker for "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 2192, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin14012-2-4094.803.sock)
+[isolated-plugin] spawned worker for "@nx/js/typescript" (pid: 14484, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin14012-3-4113.0705.sock)
+[isolated-plugin] spawned worker for "@nx/next/plugin" (pid: 19072, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin14012-4-4134.1294.sock)
+[isolated-plugin] spawned worker for "@nx/eslint/plugin" (pid: 26576, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin14012-5-4160.0962.sock)
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:00.453Z - [Messenger] Sending message type: REQUEST_PROJECT_GRAPH
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:00.454Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:00.458Z - Received raw message of length 4695
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:00.458Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:00.459Z - [REQUEST]: Client Request for Project Graph Received
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 16508) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin14012-0-4050.0663.sock
+[1m[33mTime taken for 'plugin worker 16508 code loading' 444.8172ms[39m[22m
+[isolated-plugin] connected to worker for "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 16508)
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 13844) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin14012-1-4075.7076.sock
+[1m[33mTime taken for 'plugin worker 13844 code loading' 426.7864ms[39m[22m
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 16508) connected
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:00.505Z - Time taken for 'start-plugin-worker:D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js' 571.1313ms
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 2192) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin14012-2-4094.803.sock
+[1m[33mTime taken for 'plugin worker 2192 code loading' 412.5659ms[39m[22m
+[isolated-plugin] connected to worker for "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 13844)
+[isolated-plugin] connected to worker for "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 2192)
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 13844) connected
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 2192) connected
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:00.521Z - Time taken for 'start-plugin-worker:D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json' 560.4112999999998ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:00.521Z - Time taken for 'start-plugin-worker:D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json' 542.5409ms
+[plugin-worker] "@nx/js/typescript" (pid: 14484) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin14012-3-4113.0705.sock
+[1m[33mTime taken for 'plugin worker 14484 code loading' 416.2137ms[39m[22m
+[isolated-plugin] connected to worker for "@nx/js/typescript" (pid: 14484)
+[plugin-worker] "@nx/js/typescript" (pid: 14484) connected
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:00.551Z - Time taken for 'start-plugin-worker:@nx/js/typescript' 554.3074999999999ms
+[plugin-worker] "@nx/next/plugin" (pid: 19072) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin14012-4-4134.1294.sock
+[1m[33mTime taken for 'plugin worker 19072 code loading' 424.1061ms[39m[22m
+[isolated-plugin] connected to worker for "@nx/next/plugin" (pid: 19072)
+[isolated-plugin] connected to worker for "@nx/eslint/plugin" (pid: 26576)
+[plugin-worker] "@nx/eslint/plugin" (pid: 26576) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin14012-5-4160.0962.sock
+[plugin-worker] "@nx/eslint/plugin" (pid: 26576) connected
+[plugin-worker] "@nx/next/plugin" (pid: 19072) connected
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:00.584Z - Time taken for 'start-plugin-worker:@nx/next/plugin' 564.6925999999994ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:00.584Z - Time taken for 'start-plugin-worker:@nx/eslint/plugin' 540.6512000000002ms
+[1m[33mTime taken for 'plugin worker 26576 code loading' 409.18550000000005ms[39m[22m
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 2192) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:00.755Z - Time taken for 'Load Nx Plugin: D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json' 828.8507ms
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 13844) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:00.781Z - Time taken for 'Load Nx Plugin: D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json' 856.4554999999996ms
+[plugin-worker] "D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 16508) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:00.984Z - Time taken for 'loadDefaultNxPlugins' 1061.1063999999997ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:00.984Z - Time taken for 'Load Nx Plugin: D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js' 1060.7205000000004ms
+[plugin-worker] "@nx/js/typescript" (pid: 14484) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:01.769Z - Time taken for 'Load Nx Plugin: @nx/js/typescript' 1841.9435999999996ms
+Fetching nx...
+[plugin-worker] "@nx/next/plugin" (pid: 19072) loaded successfully
+[plugin-worker] "@nx/eslint/plugin" (pid: 26576) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.305Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.305Z - [REQUEST]: 
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.305Z - [REQUEST]: 
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.309Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.310Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.311Z - [Messenger] Received message, length: 47
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.322Z - Time taken for 'loadSpecifiedNxPlugins' 2377.5719000000004ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.322Z - Time taken for 'Load Nx Plugin: @nx/next/plugin' 2375.6841999999997ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.322Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 2374.3575ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.322Z - Time taken for 'hash changed files from watcher' 1.1411000000007334ms
+[1m[33mTime taken for 'nx/core/project-json:createNodes' 1.0492999999996755ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/core/project-json" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.330Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.331Z - [Messenger] Received message, length: 220
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.333Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.334Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.334Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.335Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.337Z - [Messenger] listen() complete
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.336Z - Established a connection. Number of open connections: 3
+[1m[33mTime taken for 'nx/core/package-json:createNodes' 11.415099999999711ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.337Z - Closed a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.338Z - Established a connection. Number of open connections: 3
+[isolated-plugin] shutting down worker for "nx/core/package-json" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.338Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.339Z - [Messenger] Received message, length: 194
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.338Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.340Z - [Messenger] listen() complete
+[1m[33mTime taken for '@nx/js/typescript:createNodes' 173.26029999999992ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.500Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.501Z - [Messenger] Received message, length: 171
+[1m[33mTime taken for 'nx/js/dependencies-and-lockfile:createNodes' 263.1911ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.598Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.598Z - [Messenger] Received message, length: 134
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.779Z - [Messenger] Sending message type: GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.779Z - [Messenger] Sending message type: HASH_GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.780Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.780Z - [Messenger] Message sent
+[1m[33mTime taken for 'daemon-message-serialization-GLOB' 0.05969999999979336ms[39m[22m
+[1m[33mTime taken for 'daemon-message-serialization-HASH_GLOB' 0.06370000000015352ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.781Z - Received raw message of length 76
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.781Z - Received json message of type HASH_GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.782Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.782Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.782Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.782Z - Received raw message of length 73
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.782Z - Received json message of type GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.783Z - [Messenger] Received message, length: 22
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.783Z - Serializing response for GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.783Z - Responding to GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.783Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.784Z - Done responding to the client handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.784Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 2.
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.784Z - Done responding to the client handleGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.784Z - Handled json message GLOB. Handling time: 1. Response time: 1.
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.784Z - [Messenger] Received message, length: 7643
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.792Z - [Messenger] Sending message type: HASH_MULTI_GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.793Z - [Messenger] Message sent
+[1m[33mTime taken for 'GLOB round trip' 6.217000000000098ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - GLOB' 0.06579999999985375ms[39m[22m
+[1m[33mTime taken for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.05029999999987922ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.794Z - Received raw message of length 582
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.794Z - Received json message of type HASH_MULTI_GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.797Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.797Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.797Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.797Z - Done responding to the client handleHashMultiGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:02.798Z - Handled json message HASH_GLOB. Handling time: 2. Response time: 1.
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:02.798Z - [Messenger] Received message, length: 115
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:03.870Z - [Messenger] Sending message type: HASH_GLOB
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:03.871Z - [Messenger] Message sent
+[1m[33mTime taken for 'HASH_GLOB round trip' 4.640699999999924ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_GLOB' 0.04820000000017899ms[39m[22m
+[1m[33mTime taken for 'daemon-message-serialization-HASH_GLOB' 0.0601000000001477ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:03.872Z - Received raw message of length 75
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:03.872Z - Received json message of type HASH_GLOB
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:03.873Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:03.873Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:03.873Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:03.873Z - Done responding to the client handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:03.874Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 1.
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:03.874Z - [Messenger] Received message, length: 22
+[1m[33mTime taken for '@nx/next/plugin:createNodes' 1569.8022ms[39m[22m
+[1m[33mTime taken for 'HASH_GLOB round trip' 4.983099999999922ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_GLOB' 0.04919999999992797ms[39m[22m
+[isolated-plugin] shutting down worker for "@nx/next/plugin" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:03.901Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:03.902Z - [Messenger] Received message, length: 98
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:04.084Z - Closed a connection. Number of open connections: 2
+[1m[33mTime taken for 'HASH_MULTI_GLOB round trip' 6.509799999999814ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_MULTI_GLOB' 0.040899999999965075ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:09.322Z - [LATEST-NX]: Successfully pulled latest Nx to C:\Users\ROHINI\AppData\Local\Temp\tmp-14012-tsvtuU01wrJl
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:09.324Z - [NX-CONSOLE]: Using local implementation (NX_USE_LOCAL=true or inner call)
+DEBUG nx::native::ide::preferences: Loaded console preferences: NxConsolePreferences { auto_install_console: Some(true), path: "C:\\Users\\ROHINI\\.nx\\ide.json" }
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:09.331Z - [AI-AGENTS]: Failed to compute agent configuration status from latest Nx. Error: Only URLs with a scheme in: file, data, and node are supported by the default ESM loader. On Windows, absolute paths must be valid file:// URLs. Received protocol 'd:'
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:09.331Z - [AI-AGENTS]: Agent configuration status computation completed: 0 fully configured, 0 outdated, 0 partially configured, 0 non-configured
+DEBUG nx::native::ide::install: Detected editor: VSCode
+DEBUG nx::native::ide::install: Checking if Nx Console extension is installed with: code.cmd --list-extensions
+DEBUG nx::native::ide::install: Nx Console extension is installed
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:10.096Z - [NX-CONSOLE]: Console status check completed, shouldPrompt: false
+[1m[33mTime taken for '@nx/eslint/plugin:createNodes' 11309.7794ms[39m[22m
+[isolated-plugin] shutting down worker for "@nx/eslint/plugin" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:13.638Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:13.638Z - [Messenger] Received message, length: 47
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:13.679Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:13.684Z - Time taken for 'build-project-configs' 11342.466099999998ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:13.684Z - Time taken for 'createNodes:merge' 13.671800000000076ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:13.684Z - Time taken for 'native-file-deps' 0.01629999999931897ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:13.684Z - Time taken for 'get-workspace-files' 1.4147000000011758ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:13.684Z - Time taken for 'get-all-workspace-files' 0.2881999999990512ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:13.684Z - Time taken for 'read cache' 1.0695999999988999ms
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:13.686Z - [Messenger] Received message, length: 47
+[isolated-plugin] shutting down worker for "@nx/js/typescript" after createDependencies
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:13.692Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:13.692Z - [Messenger] Received message, length: 119
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:13.692Z - Time taken for '@nx/js/typescript:createDependencies' 13.13379999999961ms
+[1m[33mTime taken for 'build typescript dependencies' 699.5260999999991ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/js/dependencies-and-lockfile" after createDependencies
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:14.480Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:14.480Z - [Messenger] Received message, length: 47
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:14.498Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+     - apps/bakery-ops/next.config.js:
+       Error: Cannot find native binding. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+       
+       Cannot find module './rspack.win32-x64-msvc.node'
+       Require stack:
+       - D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding\binding.js
+       \\?\D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding-win32-x64-msvc\rspack.win32-x64-msvc.node is not a valid Win32 application.
+       \\?\D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding-win32-x64-msvc\rspack.win32-x64-msvc.node
+           at Object.<anonymous> (D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding\binding.js:395:11)
+           at Module._compile (node:internal/modules/cjs/loader:1705:14)
+           at Object..js (node:internal/modules/cjs/loader:1838:10)
+           at Module.load (node:internal/modules/cjs/loader:1441:32)
+           at Function._load (node:internal/modules/cjs/loader:1263:12)
+           at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+           at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+           at Module.require (node:internal/modules/cjs/loader:1463:12)
+           at require (node:internal/modules/helpers:147:16)
+           at @rspack/binding (D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\core\dist\index.js:221:27)
+         Error: Cannot find native binding. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+         
+         Cannot find module './rspack.win32-x64-msvc.node'
+         Require stack:
+         - D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding\binding.js
+         \\?\D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding-win32-x64-msvc\rspack.win32-x64-msvc.node is not a valid Win32 application.
+         \\?\D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding-win32-x64-msvc\rspack.win32-x64-msvc.node
+             at Object.<anonymous> (D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding\binding.js:395:11)
+             at Module._compile (node:internal/modules/cjs/loader:1705:14)
+             at Object..js (node:internal/modules/cjs/loader:1838:10)
+             at Module.load (node:internal/modules/cjs/loader:1441:32)
+             at Function._load (node:internal/modules/cjs/loader:1263:12)
+             at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+             at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+             at Module.require (node:internal/modules/cjs/loader:1463:12)
+             at require (node:internal/modules/helpers:147:16)
+             at @rspack/binding (D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\core\dist\index.js:221:27)
+   - apps/buzz-fest/next.config.js:
+       Error: Cannot find native binding. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+       
+       Cannot find module './rspack.win32-x64-msvc.node'
+       Require stack:
+       - D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding\binding.js
+       \\?\D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding-win32-x64-msvc\rspack.win32-x64-msvc.node is not a valid Win32 application.
+       \\?\D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding-win32-x64-msvc\rspack.win32-x64-msvc.node
+           at Object.<anonymous> (D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding\binding.js:395:11)
+           at Module._compile (node:internal/modules/cjs/loader:1705:14)
+           at Object..js (node:internal/modules/cjs/loader:1838:10)
+           at Module.load (node:internal/modules/cjs/loader:1441:32)
+           at Function._load (node:internal/modules/cjs/loader:1263:12)
+           at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+           at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+           at Module.require (node:internal/modules/cjs/loader:1463:12)
+           at require (node:internal/modules/helpers:147:16)
+           at @rspack/binding (D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\core\dist\index.js:221:27)
+         Error: Cannot find native binding. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+         
+         Cannot find module './rspack.win32-x64-msvc.node'
+         Require stack:
+         - D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding\binding.js
+         \\?\D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding-win32-x64-msvc\rspack.win32-x64-msvc.node is not a valid Win32 application.
+         \\?\D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding-win32-x64-msvc\rspack.win32-x64-msvc.node
+             at Object.<anonymous> (D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding\binding.js:395:11)
+             at Module._compile (node:internal/modules/cjs/loader:1705:14)
+             at Object..js (node:internal/modules/cjs/loader:1838:10)
+             at Module.load (node:internal/modules/cjs/loader:1441:32)
+             at Function._load (node:internal/modules/cjs/loader:1263:12)
+             at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+             at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+             at Module.require (node:internal/modules/cjs/loader:1463:12)
+             at require (node:internal/modules/helpers:147:16)
+             at @rspack/binding (D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\core\dist\index.js:221:27)
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:14.504Z - Time taken for 'total execution time for createProjectGraph()' 826.2939000000006ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:14.504Z - Time taken for 'createDependencies' 812.7384999999995ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:14.504Z - Time taken for 'nx/js/dependencies-and-lockfile:createDependencies' 812.3080999999984ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:14.504Z - Time taken for 'createMetadata' 0.03949999999895226ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:14.504Z - Time taken for 'serialize graph' 4.696700000000419ms
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:14.509Z - Done responding to the client null
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:14.509Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 14040. Response time: 11.
+[NX v22.7.5 Daemon Client] - 2026-06-10T05:28:14.511Z - [Messenger] Received message, length: 687546
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:14.523Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-06-10T05:28:14.993Z - Closed a connection. Number of open connections: 0
+[NX v22.7.5 Daemon Server] - 2026-06-10T08:49:46.060Z - [WATCHER]: Stopping the watcher for D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest (sources)
+[NX v22.7.5 Daemon Server] - 2026-06-10T08:49:46.128Z - [WATCHER]: Stopping the watcher for D:\Projects\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest (outputs)
+[NX v22.7.5 Daemon Server] - 2026-06-10T08:49:46.131Z - [LATEST-NX]: Cleaning up latest Nx installation from C:\Users\ROHINI\AppData\Local\Temp\tmp-14012-tsvtuU01wrJl
+[NX v22.7.5 Daemon Server] - 2026-06-10T08:49:46.133Z - Server stopped because: "10800000ms of inactivity"
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:24.442Z - [Client] Starting new daemon server in background
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:24.491Z - [Client] Waiting for server (max: 6000 attempts, 10ms interval)
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:26.467Z - New daemon starting from: d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\daemon\server\server.js
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:26.470Z - New daemon __dirname: d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\daemon\server
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:26.470Z - New daemon nxVersion: 22.7.5
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:26.473Z - New daemon getInstalledNxVersion(): 22.7.5
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:26.489Z - Time taken for 'workspace context init' 27.68380000000002ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:26.494Z - [Server] Starting outdated check interval (20ms)
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:26.506Z - Started listening on: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\0af9c7dfcb19cf92ad10\d.sock
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:26.517Z - [WATCHER]: Subscribed to changes within: d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest (native)
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:26.521Z - [LATEST-NX]: Pulling latest Nx...
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:26.524Z - [Client] Server available
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:26.525Z - [Client] Daemon server started, pid=12728
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:26.635Z - [AI-AGENTS]: Starting agent configuration status computation
+[isolated-plugin] spawned worker for "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 8524, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin12728-0-2167.7361.sock)
+[isolated-plugin] spawned worker for "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 19028, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin12728-1-2417.3618.sock)
+[isolated-plugin] spawned worker for "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 11620, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin12728-2-2700.4637.sock)
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:27.711Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:27.712Z - [Messenger] listen() complete
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:27.716Z - [Messenger] Sending message type: REQUEST_PROJECT_GRAPH
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:27.717Z - [Messenger] Message sent
+[isolated-plugin] spawned worker for "@nx/js/typescript" (pid: 13672, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin12728-3-3062.482.sock)
+[isolated-plugin] spawned worker for "@nx/next/plugin" (pid: 25856, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin12728-4-3375.479.sock)
+[isolated-plugin] spawned worker for "@nx/eslint/plugin" (pid: 26432, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin12728-5-3458.567.sock)
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:28.134Z - Established a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:28.136Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:28.137Z - Established a connection. Number of open connections: 3
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:28.144Z - Closed a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:28.145Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:28.175Z - Received raw message of length 4296
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:28.176Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:28.177Z - Refreshing env var Path from client connection.
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:28.177Z - Graph recompute necessary due to env variable refresh
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:28.180Z - [REQUEST]: Client Request for Project Graph Received
+Fetching nx...
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:40.156Z - [LATEST-NX]: Successfully pulled latest Nx to C:\Users\ROHINI\AppData\Local\Temp\tmp-12728-Tfo1ZawoTz0C
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:40.160Z - [NX-CONSOLE]: Using local implementation (NX_USE_LOCAL=true or inner call)
+DEBUG nx::native::ide::preferences: Loaded console preferences: NxConsolePreferences { auto_install_console: Some(true), path: "C:\\Users\\ROHINI\\.nx\\ide.json" }
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:40.168Z - [AI-AGENTS]: Failed to compute agent configuration status from latest Nx. Error: Only URLs with a scheme in: file, data, and node are supported by the default ESM loader. On Windows, absolute paths must be valid file:// URLs. Received protocol 'd:'
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:40.168Z - [AI-AGENTS]: Agent configuration status computation completed: 0 fully configured, 0 outdated, 0 partially configured, 0 non-configured
+DEBUG nx::native::ide::install: Detected editor: Unknown
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:40.169Z - [NX-CONSOLE]: Console status check completed, shouldPrompt: false
+[plugin-worker] "@nx/eslint/plugin" (pid: 26432) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin12728-5-3458.567.sock
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 8524) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin12728-0-2167.7361.sock
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 11620) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin12728-2-2700.4637.sock
+[1m[33mTime taken for 'plugin worker 11620 code loading' 12432.559799999999ms[39m[22m
+[plugin-worker] "@nx/next/plugin" (pid: 25856) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin12728-4-3375.479.sock
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 19028) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin12728-1-2417.3618.sock
+[plugin-worker] "@nx/js/typescript" (pid: 13672) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin12728-3-3062.482.sock
+[isolated-plugin] connected to worker for "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 8524)
+[isolated-plugin] connected to worker for "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 19028)
+[isolated-plugin] connected to worker for "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 11620)
+[isolated-plugin] connected to worker for "@nx/js/typescript" (pid: 13672)
+[isolated-plugin] connected to worker for "@nx/next/plugin" (pid: 25856)
+[isolated-plugin] connected to worker for "@nx/eslint/plugin" (pid: 26432)
+[1m[33mTime taken for 'plugin worker 8524 code loading' 12583.9978ms[39m[22m
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 8524) connected
+[1m[33mTime taken for 'plugin worker 26432 code loading' 12179.5376ms[39m[22m
+[plugin-worker] "@nx/eslint/plugin" (pid: 26432) connected
+[1m[33mTime taken for 'plugin worker 25856 code loading' 12265.0023ms[39m[22m
+[plugin-worker] "@nx/next/plugin" (pid: 25856) connected
+[1m[33mTime taken for 'plugin worker 19028 code loading' 12493.1062ms[39m[22m
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 19028) connected
+[1m[33mTime taken for 'plugin worker 13672 code loading' 12323.870499999999ms[39m[22m
+[plugin-worker] "@nx/js/typescript" (pid: 13672) connected
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 11620) connected
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:40.554Z - Time taken for 'start-plugin-worker:d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js' 13843.3786ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:40.554Z - Time taken for 'start-plugin-worker:d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json' 13594.7807ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:40.554Z - Time taken for 'start-plugin-worker:d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json' 13312.5677ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:40.554Z - Time taken for 'start-plugin-worker:@nx/js/typescript' 12950.634ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:40.554Z - Time taken for 'start-plugin-worker:@nx/next/plugin' 12638.9045ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:40.554Z - Time taken for 'start-plugin-worker:@nx/eslint/plugin' 12556.2459ms
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 11620) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:41.713Z - Time taken for 'Load Nx Plugin: d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json' 15054.727599999998ms
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 19028) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:41.717Z - Time taken for 'Load Nx Plugin: d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json' 15061.354599999999ms
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 8524) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:41.912Z - Time taken for 'loadDefaultNxPlugins' 15261.0923ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:41.912Z - Time taken for 'Load Nx Plugin: d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js' 15260.0164ms
+[plugin-worker] "@nx/js/typescript" (pid: 13672) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:41.975Z - Time taken for 'Load Nx Plugin: @nx/js/typescript' 15314.0695ms
+[plugin-worker] "@nx/next/plugin" (pid: 25856) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.453Z - Time taken for 'Load Nx Plugin: @nx/next/plugin' 15786.4691ms
+[plugin-worker] "@nx/eslint/plugin" (pid: 26432) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.508Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.509Z - [REQUEST]: 
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.509Z - [REQUEST]: 
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.512Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.512Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.513Z - [Messenger] Received message, length: 47
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.520Z - Time taken for 'loadSpecifiedNxPlugins' 15837.1859ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.520Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 15810.6494ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.520Z - Time taken for 'hash changed files from watcher' 10.442900000001828ms
+[1m[33mTime taken for 'nx/core/project-json:createNodes' 0.7097000000012486ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/core/project-json" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.525Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.526Z - [Messenger] Received message, length: 220
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.530Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.530Z - Closed a connection. Number of open connections: 1
+[1m[33mTime taken for 'nx/core/package-json:createNodes' 6.902900000000955ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/core/package-json" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.531Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.531Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.531Z - [Messenger] Received message, length: 194
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.530Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.531Z - [Messenger] listen() complete
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.534Z - Established a connection. Number of open connections: 3
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.535Z - Closed a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.535Z - Established a connection. Number of open connections: 3
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.535Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.536Z - [Messenger] listen() complete
+[1m[33mTime taken for '@nx/js/typescript:createNodes' 15.415000000000873ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.539Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.539Z - [Messenger] Received message, length: 171
+[1m[33mTime taken for 'nx/js/dependencies-and-lockfile:createNodes' 31.32849999999962ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.559Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.560Z - [Messenger] Received message, length: 134
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.818Z - [Messenger] Sending message type: GLOB
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.818Z - [Messenger] Sending message type: HASH_GLOB
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.819Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.819Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.821Z - Received raw message of length 76
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.821Z - Received json message of type HASH_GLOB
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.822Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.822Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.822Z - [REQUEST]: Responding to the client. handleHashGlob
+[1m[33mTime taken for 'daemon-message-serialization-HASH_GLOB' 0.05639999999948486ms[39m[22m
+[1m[33mTime taken for 'daemon-message-serialization-GLOB' 0.12760000000162108ms[39m[22m
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.822Z - [Messenger] Received message, length: 22
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.823Z - Received raw message of length 73
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.823Z - Received json message of type GLOB
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.823Z - Serializing response for GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.823Z - Responding to GLOB message
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.823Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.823Z - Done responding to the client handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.823Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 1.
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.823Z - Done responding to the client handleGlob
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.823Z - Handled json message GLOB. Handling time: 0. Response time: 0.
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.823Z - [Messenger] Received message, length: 7643
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.827Z - [Messenger] Sending message type: HASH_MULTI_GLOB
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.827Z - [Messenger] Message sent
+[1m[33mTime taken for 'GLOB round trip' 5.414099999999962ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - GLOB' 0.03539999999884458ms[39m[22m
+[1m[33mTime taken for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.0375000000003638ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.829Z - Received raw message of length 582
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.829Z - Received json message of type HASH_MULTI_GLOB
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.831Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.831Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.831Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.831Z - Done responding to the client handleHashMultiGlob
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:42.831Z - Handled json message HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:42.830Z - [Messenger] Received message, length: 115
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:44.469Z - [Messenger] Sending message type: HASH_GLOB
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:44.470Z - [Messenger] Message sent
+[1m[33mTime taken for 'HASH_GLOB round trip' 4.283100000000559ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_GLOB' 0.02449999999953434ms[39m[22m
+[1m[33mTime taken for 'daemon-message-serialization-HASH_GLOB' 0.07029999999940628ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:44.472Z - Received raw message of length 75
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:44.472Z - Received json message of type HASH_GLOB
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:44.473Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:44.473Z - Responding to HASH_GLOB message
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:44.473Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:44.473Z - Done responding to the client handleHashGlob
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:44.473Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:44.473Z - [Messenger] Received message, length: 22
+[1m[33mTime taken for '@nx/next/plugin:createNodes' 1974.3799999999992ms[39m[22m
+[1m[33mTime taken for 'HASH_GLOB round trip' 4.221499999999651ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_GLOB' 0.0783000000010361ms[39m[22m
+[isolated-plugin] shutting down worker for "@nx/next/plugin" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:44.507Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:44.507Z - [Messenger] Received message, length: 98
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:44.997Z - Closed a connection. Number of open connections: 2
+[1m[33mTime taken for '@nx/eslint/plugin:createNodes' 2927.845699999998ms[39m[22m
+[1m[33mTime taken for 'HASH_MULTI_GLOB round trip' 3.7980999999999767ms[39m[22m
+[1m[33mTime taken for 'deserialize daemon response - HASH_MULTI_GLOB' 0.030299999998533167ms[39m[22m
+[isolated-plugin] shutting down worker for "@nx/eslint/plugin" after createNodes
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:45.453Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:45.453Z - [Messenger] Received message, length: 47
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:45.520Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:45.524Z - Time taken for 'build-project-configs' 2977.7574999999997ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:45.524Z - Time taken for 'createNodes:merge' 36.756900000000314ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:45.524Z - Time taken for 'native-file-deps' 0.02080000000205473ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:45.524Z - Time taken for 'get-workspace-files' 1.4856000000036147ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:45.524Z - Time taken for 'get-all-workspace-files' 0.5828000000001339ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:45.524Z - Time taken for 'read cache' 7.930500000002212ms
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:45.526Z - [Messenger] Received message, length: 47
+[isolated-plugin] shutting down worker for "@nx/js/typescript" after createDependencies
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:45.531Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:45.531Z - [Messenger] Received message, length: 119
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:45.532Z - Time taken for '@nx/js/typescript:createDependencies' 11.598699999998644ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:46.255Z - Closed a connection. Number of open connections: 1
+[1m[33mTime taken for 'build typescript dependencies' 711.6962999999996ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/js/dependencies-and-lockfile" after createDependencies
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:46.277Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:46.277Z - [Messenger] Received message, length: 47
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:46.293Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+     - apps/bakery-ops/next.config.js:
+       Error: Cannot find native binding. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+       
+       Cannot find module './rspack.win32-x64-msvc.node'
+       Require stack:
+       - d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding\binding.js
+       \\?\d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding-win32-x64-msvc\rspack.win32-x64-msvc.node is not a valid Win32 application.
+       \\?\d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding-win32-x64-msvc\rspack.win32-x64-msvc.node
+           at Object.<anonymous> (d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding\binding.js:395:11)
+           at Module._compile (node:internal/modules/cjs/loader:1705:14)
+           at Object..js (node:internal/modules/cjs/loader:1838:10)
+           at Module.load (node:internal/modules/cjs/loader:1441:32)
+           at Function._load (node:internal/modules/cjs/loader:1263:12)
+           at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+           at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+           at Module.require (node:internal/modules/cjs/loader:1463:12)
+           at require (node:internal/modules/helpers:147:16)
+           at @rspack/binding (d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\core\dist\index.js:221:27)
+         Error: Cannot find native binding. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+         
+         Cannot find module './rspack.win32-x64-msvc.node'
+         Require stack:
+         - d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding\binding.js
+         \\?\d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding-win32-x64-msvc\rspack.win32-x64-msvc.node is not a valid Win32 application.
+         \\?\d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding-win32-x64-msvc\rspack.win32-x64-msvc.node
+             at Object.<anonymous> (d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding\binding.js:395:11)
+             at Module._compile (node:internal/modules/cjs/loader:1705:14)
+             at Object..js (node:internal/modules/cjs/loader:1838:10)
+             at Module.load (node:internal/modules/cjs/loader:1441:32)
+             at Function._load (node:internal/modules/cjs/loader:1263:12)
+             at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+             at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+             at Module.require (node:internal/modules/cjs/loader:1463:12)
+             at require (node:internal/modules/helpers:147:16)
+             at @rspack/binding (d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\core\dist\index.js:221:27)
+   - apps/buzz-fest/next.config.js:
+       Error: Cannot find native binding. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+       
+       Cannot find module './rspack.win32-x64-msvc.node'
+       Require stack:
+       - d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding\binding.js
+       \\?\d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding-win32-x64-msvc\rspack.win32-x64-msvc.node is not a valid Win32 application.
+       \\?\d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding-win32-x64-msvc\rspack.win32-x64-msvc.node
+           at Object.<anonymous> (d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding\binding.js:395:11)
+           at Module._compile (node:internal/modules/cjs/loader:1705:14)
+           at Object..js (node:internal/modules/cjs/loader:1838:10)
+           at Module.load (node:internal/modules/cjs/loader:1441:32)
+           at Function._load (node:internal/modules/cjs/loader:1263:12)
+           at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+           at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+           at Module.require (node:internal/modules/cjs/loader:1463:12)
+           at require (node:internal/modules/helpers:147:16)
+           at @rspack/binding (d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\core\dist\index.js:221:27)
+         Error: Cannot find native binding. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+         
+         Cannot find module './rspack.win32-x64-msvc.node'
+         Require stack:
+         - d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding\binding.js
+         \\?\d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding-win32-x64-msvc\rspack.win32-x64-msvc.node is not a valid Win32 application.
+         \\?\d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding-win32-x64-msvc\rspack.win32-x64-msvc.node
+             at Object.<anonymous> (d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\binding\binding.js:395:11)
+             at Module._compile (node:internal/modules/cjs/loader:1705:14)
+             at Object..js (node:internal/modules/cjs/loader:1838:10)
+             at Module.load (node:internal/modules/cjs/loader:1441:32)
+             at Function._load (node:internal/modules/cjs/loader:1263:12)
+             at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+             at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+             at Module.require (node:internal/modules/cjs/loader:1463:12)
+             at require (node:internal/modules/helpers:147:16)
+             at @rspack/binding (d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\@rspack\core\dist\index.js:221:27)
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:46.297Z - Time taken for 'total execution time for createProjectGraph()' 786.2007999999987ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:46.297Z - Time taken for 'createDependencies' 768.9102999999996ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:46.297Z - Time taken for 'nx/js/dependencies-and-lockfile:createDependencies' 768.5711999999985ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:46.297Z - Time taken for 'createMetadata' 0.028500000000349246ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:46.297Z - Time taken for 'serialize graph' 3.2295000000012806ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:46.301Z - Done responding to the client null
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:46.301Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 18113. Response time: 8.
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:46.301Z - [Messenger] Received message, length: 687546
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:46.307Z - [Messenger] Sending message type: GET_CONTEXT_FILE_DATA
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:46.307Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:46.309Z - Received raw message of length 32
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:46.309Z - Received json message of type GET_CONTEXT_FILE_DATA
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:46.309Z - Serializing response for GET_CONTEXT_FILE_DATA message in json mode
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:46.309Z - Responding to GET_CONTEXT_FILE_DATA message
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:46.309Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:46.310Z - Done responding to the client handleContextFileData
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:46.310Z - Handled json message GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:46.309Z - [Messenger] Received message, length: 16030
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:52.733Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:52.733Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:52.733Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:52.733Z - [Messenger] listen() complete
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:52.733Z - [Messenger] Sending message type: REGISTER_PROJECT_GRAPH_LISTENER
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:41:52.734Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:52.735Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:52.736Z - Received raw message of length 42
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:41:52.736Z - Received json message of type REGISTER_PROJECT_GRAPH_LISTENER
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:44:38.447Z - [Messenger] Sending message type: GET_CONFIGURE_AI_AGENTS_STATUS
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:44:38.447Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:44:38.447Z - Received raw message of length 41
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:44:38.447Z - Received json message of type GET_CONFIGURE_AI_AGENTS_STATUS
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:44:38.448Z - [AI-AGENTS]: Returning cached agent configuration status
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:44:38.448Z - Serializing response for GET_CONFIGURE_AI_AGENTS_STATUS message in json mode
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:44:38.448Z - Responding to GET_CONFIGURE_AI_AGENTS_STATUS message
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:44:38.448Z - [REQUEST]: Responding to the client. handleGetConfigureAiAgentsStatus
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:44:38.448Z - Done responding to the client handleGetConfigureAiAgentsStatus
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:44:38.448Z - Handled json message GET_CONFIGURE_AI_AGENTS_STATUS. Handling time: 0. Response time: 0.
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:44:38.448Z - [Messenger] Received message, length: 104
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:03.971Z - [Server] lock file hash changed! old=15185163186473958682, new=2287614527261647304
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:03.971Z - [Server] Daemon outdated: LOCK_FILES_CHANGED
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:03.971Z - [Server] Restarting daemon...
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:03.977Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:03.977Z - Closed a connection. Number of open connections: 0
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:51:03.977Z - [ProjectGraphListener] Socket closed, triggering reconnection
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:03.977Z - Restarting daemon with script: d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\daemon\server\start.js
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:03.978Z - Old daemon __dirname: d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\daemon\server
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:03.978Z - Current process.execPath: C:\nvm4w\nodejs\node.exe
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:51:03.977Z - [ProjectGraphListener] Starting reconnection for 1 callbacks
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:51:03.978Z - [Client] Waiting for server (max: 6000 attempts, 10ms interval)
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:03.998Z - Started new daemon process in background
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:03.999Z - [WATCHER]: Stopping the watcher for d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest (sources)
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:04.000Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:04.000Z - [WATCHER]: Stopping the watcher for d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest (outputs)
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:04.000Z - [LATEST-NX]: Cleaning up latest Nx installation from C:\Users\ROHINI\AppData\Local\Temp\tmp-12728-Tfo1ZawoTz0C
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:04.001Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.122Z - New daemon starting from: d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\daemon\server\server.js
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.122Z - New daemon __dirname: d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\daemon\server
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.123Z - New daemon nxVersion: 22.7.5
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.123Z - New daemon getInstalledNxVersion(): 22.7.5
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.129Z - Time taken for 'workspace context init' 4.808399999999892ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.131Z - [Server] Starting outdated check interval (20ms)
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.133Z - Started listening on: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\375febb5311e660fcd76\d.sock
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.136Z - [WATCHER]: Subscribed to changes within: d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest (native)
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:51:17.137Z - [Client] Server available
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.137Z - [LATEST-NX]: Pulling latest Nx...
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:51:17.138Z - [Messenger] Setting up socket listeners
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:51:17.138Z - [Messenger] listen() complete
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:51:17.138Z - [Messenger] Sending message type: REGISTER_PROJECT_GRAPH_LISTENER
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:51:17.138Z - [Messenger] Message sent
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:51:17.139Z - [ProjectGraphListener] Reconnected successfully
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.161Z - [AI-AGENTS]: Starting agent configuration status computation
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.169Z - Established a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.170Z - Established a connection. Number of open connections: 2
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.173Z - Closed a connection. Number of open connections: 1
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.174Z - Received raw message of length 42
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.174Z - Received json message of type REGISTER_PROJECT_GRAPH_LISTENER
+[isolated-plugin] spawned worker for "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 11904, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin15792-0-13215.4725.sock)
+[isolated-plugin] spawned worker for "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 12276, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin15792-1-13248.039.sock)
+[isolated-plugin] spawned worker for "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 14684, socket: \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin15792-2-13270.6149.sock)
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.332Z - Time taken for 'loadSpecifiedNxPlugins' 83.21210000000065ms
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 11904) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin15792-0-13215.4725.sock
+[isolated-plugin] connected to worker for "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 11904)
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 11904) connected
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.716Z - Time taken for 'start-plugin-worker:d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js' 463.799500000001ms
+[1m[33mTime taken for 'plugin worker 11904 code loading' 336.28470000000004ms[39m[22m
+[isolated-plugin] connected to worker for "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 12276)
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 12276) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin15792-1-13248.039.sock
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.745Z - Time taken for 'start-plugin-worker:d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json' 463.3081999999995ms
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 12276) connected
+[1m[33mTime taken for 'plugin worker 12276 code loading' 343.5191ms[39m[22m
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 14684) listening on \\.\pipe\nx\C:\Users\ROHINI\AppData\Local\Temp\plugin15792-2-13270.6149.sock
+[isolated-plugin] connected to worker for "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 14684)
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.759Z - Time taken for 'start-plugin-worker:d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json' 454.1707000000006ms
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 14684) connected
+[1m[33mTime taken for 'plugin worker 14684 code loading' 332.8298ms[39m[22m
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js" (pid: 11904) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.943Z - Time taken for 'Load Nx Plugin: d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\js' 698.9696000000004ms
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json" (pid: 14684) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:17.947Z - Time taken for 'Load Nx Plugin: d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\project-json\build-nodes\project-json' 700.1182000000008ms
+[plugin-worker] "d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json" (pid: 12276) loaded successfully
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.142Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.142Z - [REQUEST]: 
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.142Z - [REQUEST]: 
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.149Z - Time taken for 'loadDefaultNxPlugins' 706.6075000000001ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.149Z - Time taken for 'Load Nx Plugin: d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest\node_modules\nx\dist\src\plugins\package-json' 704.5668999999998ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.149Z - Time taken for 'hash changed files from watcher' 191.59689999999864ms
+[1m[33mTime taken for 'nx/core/project-json:createNodes' 0.2662000000000262ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/core/project-json" after createNodes
+[1m[33mTime taken for 'nx/core/package-json:createNodes' 1.4283000000000357ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/core/package-json" after createNodes
+[1m[33mTime taken for 'nx/js/dependencies-and-lockfile:createNodes' 23.003100000000018ms[39m[22m
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.206Z - Time taken for 'build-project-configs' 38.689800000000105ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.206Z - Time taken for 'createNodes:merge' 0.8622000000013941ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.206Z - Time taken for 'native-file-deps' 0.006900000000314321ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.206Z - Time taken for 'get-workspace-files' 2.0208999999995285ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.206Z - Time taken for 'get-all-workspace-files' 10.947599999999511ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.206Z - Time taken for 'read cache' 0.6005999999997584ms
+[1m[33mTime taken for 'build typescript dependencies' 0.24179999999989832ms[39m[22m
+[isolated-plugin] shutting down worker for "nx/js/dependencies-and-lockfile" after createDependencies
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.268Z - [SYNC]: collect registered sync generators
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.269Z - Serializing response for PROJECT_GRAPH_UPDATED message in json mode
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.270Z - Responding to PROJECT_GRAPH_UPDATED message
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.270Z - [REQUEST]: Responding to the client. Project graph updated
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.271Z - Time taken for 'total execution time for createProjectGraph()' 69.84360000000015ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.271Z - Time taken for 'createDependencies' 61.363900000000285ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.271Z - Time taken for 'nx/js/dependencies-and-lockfile:createDependencies' 61.10139999999956ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.271Z - Time taken for 'createMetadata' 0.03169999999954598ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.271Z - Time taken for 'serialize graph' 1.6954999999998108ms
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.367Z - Done responding to the client Project graph updated
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.367Z - Handled json message PROJECT_GRAPH_UPDATED. Handling time: 0. Response time: 98.
+[NX v22.7.5 Daemon Client] - 2026-10-14T03:51:18.367Z - [Messenger] Received message, length: 449914
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:18.386Z - Closed a connection. Number of open connections: 0
+Fetching nx...
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:25.668Z - [LATEST-NX]: Successfully pulled latest Nx to C:\Users\ROHINI\AppData\Local\Temp\tmp-15792-VMFEvsNS7e4F
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:25.671Z - [NX-CONSOLE]: Using local implementation (NX_USE_LOCAL=true or inner call)
+DEBUG nx::native::ide::preferences: Loaded console preferences: NxConsolePreferences { auto_install_console: Some(true), path: "C:\\Users\\ROHINI\\.nx\\ide.json" }
+DEBUG nx::native::ide::install: Detected editor: Unknown
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:25.672Z - [AI-AGENTS]: Failed to compute agent configuration status from latest Nx. Error: Only URLs with a scheme in: file, data, and node are supported by the default ESM loader. On Windows, absolute paths must be valid file:// URLs. Received protocol 'd:'
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:25.672Z - [AI-AGENTS]: Agent configuration status computation completed: 0 fully configured, 0 outdated, 0 partially configured, 0 non-configured
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:25.674Z - [NX-CONSOLE]: Console status check completed, shouldPrompt: false
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:55.914Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:51:58.280Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:54:22.521Z - [Server] Daemon outdated: NX_VERSION_CHANGED
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:54:22.521Z - [Server] Shutting down daemon (no restart)...
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:54:22.522Z - [WATCHER]: Stopping the watcher for d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest (sources)
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:54:22.522Z - [WATCHER]: Stopping the watcher for d:\PROJECTS\2026\NewFolder\Sentinal-bakery\apna-bakery\buzz-fest (outputs)
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:54:22.523Z - [LATEST-NX]: Cleaning up latest Nx installation from C:\Users\ROHINI\AppData\Local\Temp\tmp-15792-VMFEvsNS7e4F
+[NX v22.7.5 Daemon Server] - 2026-10-14T03:54:22.524Z - Server stopped because: "NX_VERSION_CHANGED"

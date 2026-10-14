@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40b712e5e702302078be35a9df2879faae08d805b1": {
+      "workers": {
+        "app/cart/page": {
+          "moduleId": "[project]/apps/buzz-fest/.next-internal/server/app/cart/page/actions.js { ACTIONS_MODULE0 => \"[project]/apps/buzz-fest/src/app/actions/checkout.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "createOrder",
+          "filename": "apps/buzz-fest/src/app/actions/checkout.ts"
+        }
+      },
+      "layer": {
+        "app/cart/page": "action-browser"
+      },
+      "exportedName": "createOrder",
+      "filename": "apps/buzz-fest/src/app/actions/checkout.ts"
+    }
+  },
+  "edge": {}
+}

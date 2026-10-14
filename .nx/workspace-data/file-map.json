@@ -1,0 +1,1151 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.7.5",
+  "pathMappings": {
+    "@buzz-fest/data-access": [
+      "./libs/data-access/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/js/typescript",
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        },
+        "build": {
+          "targetName": "build",
+          "configName": "tsconfig.lib.json",
+          "buildDepsName": "build-deps",
+          "watchDepsName": "watch-deps"
+        }
+      }
+    },
+    {
+      "name": "@nx/next/plugin",
+      "options": {
+        "startTargetName": "start",
+        "buildTargetName": "build",
+        "devTargetName": "dev",
+        "serveStaticTargetName": "serve-static",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".env",
+        "hash": "18374941018463724159"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "12926286793420397906"
+      },
+      {
+        "file": "README.md",
+        "hash": "16273094253132651862"
+      },
+      {
+        "file": "nx.json",
+        "hash": "11565039115368623669"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "16884713733442577066"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "8895014943961646241"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "13775195449407976075"
+      },
+      {
+        "file": "package.json",
+        "hash": "1582598200205237806"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "468117135527207843"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "8754874883597051309"
+      }
+    ],
+    "projectFileMap": {
+      "prisma-client-eaa5acb3758a305e4418df7d52faa509d84efee12c21090dbd2cd8ca0f679b55": [
+        {
+          "file": "libs/data-access/src/generated/client/client.d.ts",
+          "hash": "6801102947810818358"
+        },
+        {
+          "file": "libs/data-access/src/generated/client/client.js",
+          "hash": "11637790384250053573"
+        },
+        {
+          "file": "libs/data-access/src/generated/client/default.d.ts",
+          "hash": "6801102947810818358"
+        },
+        {
+          "file": "libs/data-access/src/generated/client/default.js",
+          "hash": "8493047610801614176"
+        },
+        {
+          "file": "libs/data-access/src/generated/client/edge.d.ts",
+          "hash": "11303388507078878756"
+        },
+        {
+          "file": "libs/data-access/src/generated/client/edge.js",
+          "hash": "7375127488513083060"
+        },
+        {
+          "file": "libs/data-access/src/generated/client/index-browser.js",
+          "hash": "1929077872464984617"
+        },
+        {
+          "file": "libs/data-access/src/generated/client/index.d.ts",
+          "hash": "16313351695508391893"
+        },
+        {
+          "file": "libs/data-access/src/generated/client/index.js",
+          "hash": "4010446263499154074"
+        },
+        {
+          "file": "libs/data-access/src/generated/client/package.json",
+          "hash": "10261761249715844085",
+          "deps": [
+            "npm:@prisma/client-runtime-utils"
+          ]
+        },
+        {
+          "file": "libs/data-access/src/generated/client/query_compiler_fast_bg.js",
+          "hash": "4709418274068484417"
+        },
+        {
+          "file": "libs/data-access/src/generated/client/query_compiler_fast_bg.wasm",
+          "hash": "7729608520648726855"
+        },
+        {
+          "file": "libs/data-access/src/generated/client/query_compiler_fast_bg.wasm-base64.js",
+          "hash": "12882211996401912415"
+        },
+        {
+          "file": "libs/data-access/src/generated/client/runtime/client.d.ts",
+          "hash": "3736054435662288725",
+          "deps": [
+            "npm:@prisma/client-runtime-utils"
+          ]
+        },
+        {
+          "file": "libs/data-access/src/generated/client/runtime/client.js",
+          "hash": "6483948244233574826",
+          "deps": [
+            "npm:@prisma/client-runtime-utils"
+          ]
+        },
+        {
+          "file": "libs/data-access/src/generated/client/runtime/index-browser.d.ts",
+          "hash": "6275792066127955283",
+          "deps": [
+            "npm:@prisma/client-runtime-utils"
+          ]
+        },
+        {
+          "file": "libs/data-access/src/generated/client/runtime/index-browser.js",
+          "hash": "11774470829678130651",
+          "deps": [
+            "npm:@prisma/client-runtime-utils"
+          ]
+        },
+        {
+          "file": "libs/data-access/src/generated/client/runtime/wasm-compiler-edge.js",
+          "hash": "13835434122779076091",
+          "deps": [
+            "npm:@prisma/client-runtime-utils"
+          ]
+        },
+        {
+          "file": "libs/data-access/src/generated/client/schema.prisma",
+          "hash": "18372171527023715681"
+        },
+        {
+          "file": "libs/data-access/src/generated/client/wasm-edge-light-loader.mjs",
+          "hash": "10610130084453536134"
+        },
+        {
+          "file": "libs/data-access/src/generated/client/wasm-worker-loader.mjs",
+          "hash": "5504590206136402358"
+        }
+      ],
+      "@buzz-fest/data-access": [
+        {
+          "file": "libs/data-access/README.md",
+          "hash": "10562569861016511150"
+        },
+        {
+          "file": "libs/data-access/eslint.config.mjs",
+          "hash": "7869296838249384130"
+        },
+        {
+          "file": "libs/data-access/package.json",
+          "hash": "10349690411783427924"
+        },
+        {
+          "file": "libs/data-access/prisma/baker.prisma",
+          "hash": "8846926338166751671"
+        },
+        {
+          "file": "libs/data-access/prisma/base.prisma",
+          "hash": "4897715046638735434"
+        },
+        {
+          "file": "libs/data-access/prisma/checkout.prisma",
+          "hash": "11191111281065941695"
+        },
+        {
+          "file": "libs/data-access/prisma/dump.ts",
+          "hash": "3181960060743049374",
+          "deps": [
+            "npm:dotenv",
+            "npm:@prisma/client",
+            "npm:@prisma/adapter-pg"
+          ]
+        },
+        {
+          "file": "libs/data-access/prisma/fulfillment.prisma",
+          "hash": "6193346788315212313"
+        },
+        {
+          "file": "libs/data-access/prisma/live_data_backup.json",
+          "hash": "13193021842871822656"
+        },
+        {
+          "file": "libs/data-access/prisma/seed.ts",
+          "hash": "4226711561920494975",
+          "deps": [
+            "npm:dotenv",
+            "npm:@prisma/client",
+            "npm:@prisma/adapter-pg"
+          ]
+        },
+        {
+          "file": "libs/data-access/prisma/seedProducts.ts",
+          "hash": "7991811229496028438",
+          "deps": [
+            "npm:dotenv",
+            "npm:@prisma/client",
+            "npm:@prisma/adapter-pg"
+          ]
+        },
+        {
+          "file": "libs/data-access/src/index.ts",
+          "hash": "15905523667901844537",
+          "deps": [
+            "prisma-client-eaa5acb3758a305e4418df7d52faa509d84efee12c21090dbd2cd8ca0f679b55"
+          ]
+        },
+        {
+          "file": "libs/data-access/src/lib/data-access.spec.ts",
+          "hash": "15136438893075970682"
+        },
+        {
+          "file": "libs/data-access/src/lib/data-access.ts",
+          "hash": "1222145506440706631"
+        },
+        {
+          "file": "libs/data-access/src/lib/outbox-worker.ts",
+          "hash": "173997988064246964",
+          "deps": [
+            "npm:dotenv",
+            "prisma-client-eaa5acb3758a305e4418df7d52faa509d84efee12c21090dbd2cd8ca0f679b55",
+            "npm:@prisma/adapter-pg",
+            "npm:pg"
+          ]
+        },
+        {
+          "file": "libs/data-access/src/lib/prisma.ts",
+          "hash": "11344001451292442308",
+          "deps": [
+            "prisma-client-eaa5acb3758a305e4418df7d52faa509d84efee12c21090dbd2cd8ca0f679b55",
+            "npm:@prisma/adapter-pg",
+            "npm:pg"
+          ]
+        },
+        {
+          "file": "libs/data-access/tsconfig.json",
+          "hash": "15856989918287211863"
+        },
+        {
+          "file": "libs/data-access/tsconfig.lib.json",
+          "hash": "15934073854242203210"
+        }
+      ],
+      "buzz-fest": [
+        {
+          "file": "apps/buzz-fest/.swcrc",
+          "hash": "4532740859193830353"
+        },
+        {
+          "file": "apps/buzz-fest/eslint.config.mjs",
+          "hash": "14196284491797212514",
+          "deps": [
+            "npm:@next/eslint-plugin-next",
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/index.d.ts",
+          "hash": "5498222895072842432"
+        },
+        {
+          "file": "apps/buzz-fest/next-env.d.ts",
+          "hash": "373744204795424001"
+        },
+        {
+          "file": "apps/buzz-fest/next.config.js",
+          "hash": "6910258206894920735",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/postcss.config.mjs",
+          "hash": "6534987870150040858"
+        },
+        {
+          "file": "apps/buzz-fest/project.json",
+          "hash": "17149151231593100681"
+        },
+        {
+          "file": "apps/buzz-fest/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/buzz-fest/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/about_us/page.tsx",
+          "hash": "6699021550804157805",
+          "deps": [
+            "npm:next",
+            "npm:react",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/actions/checkout.ts",
+          "hash": "6888435210322410556",
+          "deps": [
+            "@buzz-fest/data-access"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/api/hello/route.ts",
+          "hash": "495073956729887886"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/bakers/loading.tsx",
+          "hash": "14763777222601197704"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/bakers/page.tsx",
+          "hash": "17088232083715526082",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/cart/loading.tsx",
+          "hash": "14852693705754442922",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/cart/page.tsx",
+          "hash": "17378625783104018167",
+          "deps": [
+            "npm:react",
+            "npm:next",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/Badge.tsx",
+          "hash": "7218547520621098141"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/ButtonVarient.tsx",
+          "hash": "3244373818946117996",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-slot",
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/Filters.tsx",
+          "hash": "5284259345435515896",
+          "deps": [
+            "npm:next",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/NavigationHelpers.tsx",
+          "hash": "13115531882810453561",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/addToCartButton.tsx",
+          "hash": "3206082142446046042"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/avatar.tsx",
+          "hash": "14278623240430752518"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/BakerCard.stories.tsx",
+          "hash": "2764278267000951732"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/BakerCard.test.tsx",
+          "hash": "6748861883387650619",
+          "deps": [
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/BakerCard.tsx",
+          "hash": "11003094876145259579",
+          "deps": [
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/BaseCardSkeleton.stories.tsx",
+          "hash": "4888069446270523850"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/BaseCardSkeleton.test.tsx",
+          "hash": "13826739802881378990",
+          "deps": [
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/BaseCardSkeleton.tsx",
+          "hash": "641376534810330053"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/CardImage.stories.tsx",
+          "hash": "4785010835181519306"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/CardImage.test.tsx",
+          "hash": "8677691825639869546",
+          "deps": [
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/CardImage.tsx",
+          "hash": "16716528875729134153"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/ProductCard.stories.tsx",
+          "hash": "12532514399599801077"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/ProductCard.test.tsx",
+          "hash": "13381312646469774718",
+          "deps": [
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/ProductCard.tsx",
+          "hash": "16411732044596218637"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/StarRating.stories.tsx",
+          "hash": "12562703913638569971"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/StarRating.test.tsx",
+          "hash": "16906383537028434671",
+          "deps": [
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/StarRating.tsx",
+          "hash": "14963240731892260815",
+          "deps": [
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/story-test-utils.ts",
+          "hash": "1696613625455175839",
+          "deps": [
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/types.ts",
+          "hash": "18264829195843084795"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/card/vitest.setup-card.tsx",
+          "hash": "11228147190030691918",
+          "deps": [
+            "npm:vitest",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/carousel/BakeryFeaturedCarousel.tsx",
+          "hash": "5517516132758318513",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/carousel/CarouselClient.tsx",
+          "hash": "4784043196945026524",
+          "deps": [
+            "npm:react",
+            "npm:embla-carousel-autoplay"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/carousel/CarouselShell.tsx",
+          "hash": "14423708383397889688"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/productsFilter.tsx",
+          "hash": "4199330766726693942",
+          "deps": [
+            "npm:lucide-react",
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/section-divider/SectionDivider.stories.tsx",
+          "hash": "16164499092811690843"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/section-divider/SectionDivider.tsx",
+          "hash": "14929784728491289461",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/slider.tsx",
+          "hash": "4232978381744968082",
+          "deps": [
+            "npm:react",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/UI/star.tsx",
+          "hash": "7072563318589917671",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/layout/LandingPage/BakersList.stories.tsx",
+          "hash": "15041945577377233947"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/layout/LandingPage/BakersList.tsx",
+          "hash": "15048837150859199202"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/layout/LandingPage/CupcakesList.tsx",
+          "hash": "16426691953366518636"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/layout/LandingPage/DoughnutsList.tsx",
+          "hash": "16736554293752330763"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/layout/LandingPage/LandingPage.tsx",
+          "hash": "11409365458785016082",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/layout/cartSideSheet.tsx",
+          "hash": "10217151435900579239",
+          "deps": [
+            "npm:next",
+            "npm:lucide-react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/layout/cartSummaryIcon.tsx",
+          "hash": "8084893627448089882",
+          "deps": [
+            "npm:react",
+            "npm:lucide-react",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/layout/footer.tsx",
+          "hash": "323269473824493493",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/layout/header/header.tsx",
+          "hash": "2644739490679914340",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/layout/header/navigation.tsx",
+          "hash": "13470265328634270602",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/component/layout/header/shoppingCart.tsx",
+          "hash": "10362587491642848951",
+          "deps": [
+            "npm:react",
+            "npm:lucide-react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/favicon.ico",
+          "hash": "9157999678830540297"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/feature/Bakers/GetAllBakers.ts",
+          "hash": "1366536656021818631",
+          "deps": [
+            "npm:next",
+            "@buzz-fest/data-access"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/globals.css",
+          "hash": "9350814768478953191"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/layout.tsx",
+          "hash": "13527692443943302848",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/lib/badge-filter-colors.test.ts",
+          "hash": "14117158672636831176",
+          "deps": [
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/lib/badge-filter-colors.ts",
+          "hash": "2189250504757498710"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/lib/design-tokens.ts",
+          "hash": "11704963006887705318"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/lib/prisma.ts",
+          "hash": "706697454732990857",
+          "deps": [
+            "npm:@prisma/client",
+            "npm:@prisma/adapter-pg",
+            "npm:pg"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/lib/star-rating.test.ts",
+          "hash": "11729023103022637607",
+          "deps": [
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/lib/star-rating.ts",
+          "hash": "16605746635540881847"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/lib/types.ts",
+          "hash": "16061607229727857483"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/lib/types/product.ts",
+          "hash": "2290901494112017539"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/lib/utils.ts",
+          "hash": "6483145186850064023",
+          "deps": [
+            "npm:clsx",
+            "npm:tailwind-merge"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/page.tsx",
+          "hash": "1449548201040809426"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/products/ProductsCard.tsx",
+          "hash": "16473255634002813986",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/products/[slug]/ProductClient.tsx",
+          "hash": "2364083210454416588",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/products/[slug]/loading.tsx",
+          "hash": "15266852935175978110"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/products/[slug]/page.tsx",
+          "hash": "8918467351034219904",
+          "deps": [
+            "@buzz-fest/data-access"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/products/[slug]/productImage.tsx",
+          "hash": "4620213851902992044",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/products/clearFilters.tsx",
+          "hash": "445959846056904042",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/products/getAllProducts.ts",
+          "hash": "17512248418223114230",
+          "deps": [
+            "npm:next",
+            "@buzz-fest/data-access"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/products/layout.tsx",
+          "hash": "11933660446299163722"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/products/page.tsx",
+          "hash": "9951467157903788158",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/app/products/productLink.tsx",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/buzz-fest/src/app/typings.d.ts",
+          "hash": "15048789378483899263"
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/CloudinaryImage.tsx",
+          "hash": "4476427972890430718",
+          "deps": [
+            "npm:next-cloudinary"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/aspect-ratio.tsx",
+          "hash": "11372439348968502573",
+          "deps": [
+            "npm:radix-ui"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/avatar.tsx",
+          "hash": "2440247867583602306",
+          "deps": [
+            "npm:react",
+            "npm:radix-ui"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/badge.tsx",
+          "hash": "17782749087255867037",
+          "deps": [
+            "npm:react",
+            "npm:class-variance-authority",
+            "npm:@radix-ui/react-slot"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/button.tsx",
+          "hash": "16653752332721900994",
+          "deps": [
+            "npm:react",
+            "npm:class-variance-authority",
+            "npm:@radix-ui/react-slot"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/card.tsx",
+          "hash": "4154966672351574498",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/carousel.tsx",
+          "hash": "1261812255491941428",
+          "deps": [
+            "npm:react",
+            "npm:embla-carousel-react",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/checkbox.tsx",
+          "hash": "5196705681435865005",
+          "deps": [
+            "npm:react",
+            "npm:radix-ui",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/collapsible.tsx",
+          "hash": "10416818902256732320",
+          "deps": [
+            "npm:radix-ui"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/field.tsx",
+          "hash": "13824715539192678780",
+          "deps": [
+            "npm:react",
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/input.tsx",
+          "hash": "16452916801561403965",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/label.tsx",
+          "hash": "5189558202744067107",
+          "deps": [
+            "npm:react",
+            "npm:radix-ui"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/navigation-menu.tsx",
+          "hash": "439903550755931456",
+          "deps": [
+            "npm:react",
+            "npm:class-variance-authority",
+            "npm:radix-ui",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/search.tsx",
+          "hash": "3265936380113118112",
+          "deps": [
+            "npm:next",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/select.tsx",
+          "hash": "16469797761182525328",
+          "deps": [
+            "npm:react",
+            "npm:radix-ui",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/separator.tsx",
+          "hash": "2009588973566914965",
+          "deps": [
+            "npm:react",
+            "npm:radix-ui"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/sheet.tsx",
+          "hash": "8654637827287283790",
+          "deps": [
+            "npm:react",
+            "npm:radix-ui",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/sidebar.tsx",
+          "hash": "14971654762686674229",
+          "deps": [
+            "npm:react",
+            "npm:class-variance-authority",
+            "npm:radix-ui",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/skeleton.tsx",
+          "hash": "7143624361161375958"
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/slider.tsx",
+          "hash": "3903353438189125642",
+          "deps": [
+            "npm:react",
+            "npm:radix-ui"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/components/ui/tooltip.tsx",
+          "hash": "8176484237280544480",
+          "deps": [
+            "npm:react",
+            "npm:radix-ui"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/hooks/use-mobile.ts",
+          "hash": "14900138732519213047",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/hooks/useCart.ts",
+          "hash": "6593157671021316274",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/hooks/useDebounce.ts",
+          "hash": "16162219920233900857",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/hooks/useUpdateFilters.ts",
+          "hash": "16655162008780099449",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/hooks/useUpdateFilters_odd.ts",
+          "hash": "1773426668319721735",
+          "deps": [
+            "npm:next",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/lib/badge-filter-colors.test.ts",
+          "hash": "14117158672636831176",
+          "deps": [
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/lib/badge-filter-colors.ts",
+          "hash": "2189250504757498710"
+        },
+        {
+          "file": "apps/buzz-fest/src/lib/design-tokens.ts",
+          "hash": "11704963006887705318"
+        },
+        {
+          "file": "apps/buzz-fest/src/lib/prisma.ts",
+          "hash": "706697454732990857",
+          "deps": [
+            "npm:@prisma/client",
+            "npm:@prisma/adapter-pg",
+            "npm:pg"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/lib/star-rating.test.ts",
+          "hash": "11729023103022637607",
+          "deps": [
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/lib/star-rating.ts",
+          "hash": "16605746635540881847"
+        },
+        {
+          "file": "apps/buzz-fest/src/lib/types.ts",
+          "hash": "16061607229727857483"
+        },
+        {
+          "file": "apps/buzz-fest/src/lib/types/product.ts",
+          "hash": "2290901494112017539"
+        },
+        {
+          "file": "apps/buzz-fest/src/lib/utils.ts",
+          "hash": "6483145186850064023",
+          "deps": [
+            "npm:clsx",
+            "npm:tailwind-merge"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/store/store.tsx",
+          "hash": "2114886873520735906",
+          "deps": [
+            "npm:zustand"
+          ]
+        },
+        {
+          "file": "apps/buzz-fest/src/types/product.ts",
+          "hash": "5062253569570342599"
+        },
+        {
+          "file": "apps/buzz-fest/tsconfig.json",
+          "hash": "15522741044765669119"
+        }
+      ],
+      "@buzz-fest/bakery-ops": [
+        {
+          "file": "apps/bakery-ops/.swcrc",
+          "hash": "4532740859193830353"
+        },
+        {
+          "file": "apps/bakery-ops/eslint.config.mjs",
+          "hash": "14196284491797212514",
+          "deps": [
+            "npm:@next/eslint-plugin-next",
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/bakery-ops/index.d.ts",
+          "hash": "5498222895072842432"
+        },
+        {
+          "file": "apps/bakery-ops/next-env.d.ts",
+          "hash": "15584119625765151711"
+        },
+        {
+          "file": "apps/bakery-ops/next.config.js",
+          "hash": "5443563404894739361",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/bakery-ops/package.json",
+          "hash": "2108821447917943653",
+          "deps": [
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/bakery-ops/postcss.config.js",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "apps/bakery-ops/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/bakery-ops/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/bakery-ops/src/app/api/hello/route.ts",
+          "hash": "495073956729887886"
+        },
+        {
+          "file": "apps/bakery-ops/src/app/global.css",
+          "hash": "10916250898617451616"
+        },
+        {
+          "file": "apps/bakery-ops/src/app/layout.tsx",
+          "hash": "9027842683700076023"
+        },
+        {
+          "file": "apps/bakery-ops/src/app/page.tsx",
+          "hash": "9389425801336958030"
+        },
+        {
+          "file": "apps/bakery-ops/tailwind.config.js",
+          "hash": "5937918000814531646"
+        },
+        {
+          "file": "apps/bakery-ops/tsconfig.json",
+          "hash": "7881243730938024579"
+        }
+      ]
+    }
+  },
+  "externalNodesHash": "14910869105541031587"
+}
