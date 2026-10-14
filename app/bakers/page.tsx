@@ -21,13 +21,8 @@ const Bakerspage = async ({ searchParams }: Props) => {
   const Bakers = await GetAllBakers(filters);
   console.log("Fetched bakers data in page component:", Bakers); // Debug log to check data structure
   return (
-    <div className=" flex flex-1 w-full flex-col">
-      <section
-        className="w-full gap-x-4 my-3
-     grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-4 items-start "
-      >
-        <Filters />
-      </section>
+    <div className=" flex flex-1 w-full flex-col px-4 py-6">
+      <h2 className="text-2xl font-bold mb-4 text-center">Our Bakers</h2>
       <BakersList />
     </div>
   );
