@@ -52,3 +52,6 @@ public/images/products/
 # public/vercel.svg
 *storybook.log
 storybook-static
+
+site/
+*.zip

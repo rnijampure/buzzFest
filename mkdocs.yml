@@ -1,0 +1,41 @@
+site_name: BuzzFest Documentation
+site_description: Developer documentation for BuzzFest (Apna Bakery), a Next.js marketplace for home bakers in Bangalore (Next.js 16, React 19, Prisma, Neon, Zustand).
+site_author: Rohini Nijampure
+site_url: https://rnijampure.github.io/buzzFest/
+repo_url: https://github.com/rnijampure/buzzFest
+repo_name: rnijampure/buzzFest
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+nav:
+  - Overview: index.md
+  - Getting started: getting-started.md
+  - Architecture: architecture.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
